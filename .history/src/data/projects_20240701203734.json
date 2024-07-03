@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Mon Labo",
+    "imageSrc": "projects/im.png",
+    "description": "Online website that makes it easy to find an analysis laboratory, contact us for an appointment and access your analysis results remotely.",
+    "skills": ["HTML & CSS", "BOOTSTRAP", "JS"],
+   
+    "source": "https://github.com/hendhamdi/Mon-Labo.github.io.git"
+  },
+  {
+    "title": "Platform TRIK-ESSLAMA",
+    "imageSrc": "projects/asu.png",
+    "description": "The online platform facilitates communication between the adjuster and the policyholder, enabling rapid processing of automobile claims.",
+    "skills": ["HTML & CSS","JS", "BOOTSTRAP","Firebase"],
+    
+    "source": "https://github.com/hendhamdi/pfa.github.io.git"
+  },
+  {
+    "title": "Lifeguard ",
+    "imageSrc": "projects/p2.png",
+    "description": " Intelligent medical wristband to measure temperature and oxygen levels after surgery, with automatic data transfer to the platform.",
+    "skills": ["JS", "HTML & CSS", "EJS","C++ ","Firebase"],
+    
+    "source": "https://github.com/hendhamdi/lifeguard-braclet-medicale.git",
+    "demo": "https://www.example.com"
+  }
+  ,
+  {
+    "title": "Simple calculator",
+    "imageSrc": "projects/calc.png",
+    "description": " Simple calculator for beginners, basic calculator with addition, subtraction, division and multiplication",
+    "skills": ["React-Js", "HTML & CSS", "JS"],
+    
+    "source": "https://github.com/hendhamdi/React-Js-for-Beginners-simple-calculator",
+    "demo": "https://www.example.com"
+  }
+  ,
+  {
+    "title": "Deep_learning",
+    "imageSrc": "projects/calc.png",
+    "description": "This Python script uses the PyTorch library to configure, train and evaluate a convolutional neural networkfor image classification.",
+    "skills": ["React-Js", "HTML & CSS", "JS"],
+    
+    "source": "https://github.com/hendhamdi/React-Js-for-Beginners-simple-calculator",
+    "demo": "https://www.example.com"
+  }
+  
+]

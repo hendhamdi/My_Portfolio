@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Mon Labo",
+    "imageSrc": "projects/im.png",
+    "description": "Online website that makes it easy to find an analysis laboratory, contact us for an appointment and access your analysis results remotely..",
+    "skills": ["HTML & CSS", "BOOTSTRAP", "JS"],
+   
+    "source": "https://github.com/hendhamdi/Mon-Labo.github.io.git"
+  },
+  {
+    "title": "Plateforme TRIK-ESSLAMA",
+    "imageSrc": "projects/asu.png",
+    "description": "Online platform facilitates communication between the adjuster and the insured to enable fast and accurate handling of motor insurance claims.",
+    "skills": ["HTML & CSS","JS", "BOOTSTRAP","Firebase"],
+    
+    "source": "https://github.com/hendhamdi/pfa.github.io.git"
+  },
+  {
+    "title": "Lifeguard-braclet-medicale",
+    "imageSrc": "projects/p2.png",
+    "description": " Smart medical wristband to measure temperature and oxygen level post-op, remote monitoring .",
+    "skills": ["JS", "HTML & CSS", "EJS","C++ ","Firebase"],
+    
+    "source": "https://github.com/hendhamdi/lifeguard-braclet-medicale.git",
+    "demo": "https://www.example.com"
+  }
+  ,
+  {
+    "title": "Simple calculator",
+    "imageSrc": "projects/p2.png",
+    "description": " Simple calculator for beginners, basic calculator with addition, subtraction, division and multiplication",
+    "skills": ["React-Js", "HTML & CSS", "JS"],
+    
+    "source": "https://github.com/hendhamdi/lifeguard-braclet-medicale.git",
+    "demo": "https://www.example.com"
+  }
+  
+]
