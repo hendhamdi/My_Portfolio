@@ -1,0 +1,62 @@
+/* Import des variables CSS */
+@import "../../vars.css";
+
+/* Container général pour la section des projets */
+.container {
+    margin-top: 80px;
+    color: var(--color-text);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 7%;
+}
+
+/* Titre de la section des projets */
+.title {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Playwrite US Modern", cursive;
+}
+
+/* Sous-titres des différentes catégories de projets */
+.subTitle {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 40px;
+    font-family: "Playwrite US Modern", cursive;
+    color: var(--color-text);
+}
+
+/* Conteneur des projets, disposition en flex */
+.projects {
+    margin-top: 37px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    width: 100%;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(133, 129, 129) 3%, rgb(168, 164, 164) 97%, rgba(0, 0, 0, 0));
+    padding: 15px;
+    scroll-behavior: smooth;
+}
+
+/* Styling pour la scrollbar horizontale des projets */
+.projects::-webkit-scrollbar {
+    height: 10px;
+}
+
+/* Ajout du style pour la barre de défilement horizontale (facultatif) */
+.projects::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.projects::-webkit-scrollbar-track {
+    background-color: transparent;
+}

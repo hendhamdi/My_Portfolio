@@ -1,0 +1,104 @@
+/* Import des variables CSS */
+@import "../../vars.css";
+
+/* Container de la carte de projet */
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+    box-shadow: 0 16px 14px 0 #04152d;
+    padding: 20px;
+    /* Augmenter l'espacement interne */
+    max-width: 340px;
+    width: 100%;
+    overflow: hidden;
+    /* S'assurer que le contenu ne déborde pas */
+}
+
+/* Titre du projet */
+.title {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Playwrite US Modern", cursive;
+    margin-top: 0;
+    color: var(--color-light);
+    /* Améliorer la lisibilité du titre */
+}
+
+/* Description du projet */
+.description {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Playwrite US Modern", cursive;
+    color: var(--color-light);
+    /* Assurer un contraste suffisant */
+}
+
+/* Liste des compétences */
+.skills {
+    width: 100%;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+    padding: 0;
+    /* Enlever le padding par défaut */
+}
+
+/* Compétence individuelle */
+.skill {
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 100px;
+    background: var(--color-dark);
+    padding: 3px 20px;
+    font-family: "Playwrite US Modern", cursive;
+    color: var(--color-light);
+    /* Assurer que le texte soit lisible */
+}
+
+/* Liens (Source et Demo) */
+.links {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Style des liens */
+.link {
+    text-decoration: none;
+    color: rgb(236, 236, 87);
+    font-size: 23px;
+    font-weight: 500;
+    border-radius: 100px;
+    background-color: rgb(62, 62, 149);
+    padding: 8px 22px;
+    /* Augmenter le padding pour améliorer la lisibilité */
+    font-family: "Playwrite US Modern", cursive;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    /* Ajout de transition pour un effet de hover plus fluide */
+}
+
+/* Effet au survol du lien */
+.link:hover {
+    color: rgb(62, 62, 149);
+    background-color: rgb(236, 236, 87);
+}
+
+/* Image du projet */
+.container .image {
+    border-radius: 10px;
+    width: 100%;
+    /* Rendre l'image responsive */
+    height: auto;
+    object-fit: cover;
+    /* Assurer que l'image garde un bon ratio */
+    margin-bottom: 26px;
+    margin-top: 6px;
+}

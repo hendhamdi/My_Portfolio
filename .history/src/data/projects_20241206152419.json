@@ -1,0 +1,80 @@
+{
+  "devProjects": [
+  {
+    "title": "Mon Labo",
+    "imageSrc": "projects/im.png",
+    "description": "Online website that makes it easy to find an analysis laboratory, contact us for an appointment and access your analysis results remotely.",
+    "skills": ["HTML & CSS", "BOOTSTRAP", "JS"],
+   
+    "source": "https://github.com/hendhamdi/Mon-Labo.github.io.git"
+  },
+  {
+    "title": "Platform TRIK-ESSLAMA",
+    "imageSrc": "projects/asu.png",
+    "description": "The online platform facilitates communication between the adjuster and the policyholder, enabling rapid processing of automobile claims.",
+    "skills": ["HTML & CSS","JS", "BOOTSTRAP","Firebase"],
+    
+    "source": "https://github.com/hendhamdi/pfa.github.io.git"
+  },
+  {
+    "title": "Lifeguard ",
+    "imageSrc": "projects/p2.png",
+    "description": " Intelligent medical wristband to measure temperature and oxygen levels after surgery, with automatic data transfer to the platform.",
+    "skills": ["JS", "HTML & CSS", "EJS","C++ ","Firebase"],
+    
+    "source": "https://github.com/hendhamdi/lifeguard-braclet-medicale.git",
+    "demo": "https://www.example.com"
+  }
+  
+  ,
+  {
+    "title": "Deep_learning",
+    "imageSrc": "projects/R.jpg",
+    "description": "This Python script uses the PyTorch library to configure, train and evaluate a conventional neural network for image classification.",
+    "skills": ["React-Js", "HTML & CSS", "JS"],
+    
+    "source": "https://github.com/hendhamdi/deep_learning-cnn-master.github.io",
+    "demo": "https://www.example.com"
+  },
+  {
+    "title": "Simple calculator",
+    "imageSrc": "projects/calc.png",
+    "description": " Simple calculator for beginners, basic calculator with addition, subtraction, division and multiplication",
+    "skills": ["React-Js", "HTML & CSS", "JS"],
+    
+    "source": "https://github.com/hendhamdi/React-Js-for-Beginners-simple-calculator",
+    "demo": "https://www.example.com"
+  }
+  
+],
+"designProjects": [
+      {
+      "title": "Mobile App Design for User & Admin Dashboard",
+      "imageSrc": "projects/figma_ooredoo_design.png",
+      "description": "UI/UX design for a mobile application and admin dashboard for my project of Internship in Ooredoo.",
+      "skills": ["Figma", "UI/UX Design", "Mobile App & Dashboard Design"],
+      "source": "https://www.figma.com/design/uNMdpK5LUvFUGQCC2U994T/ooredoo?node-id=0-1&node-type=canvas&t=6e4STYNbn4LLkQpb-0"
+    },
+    {
+       "title": "PastaQuest - Pasta Restaurant Website ",
+      "imageSrc": "projects/figma_pastaquest.png",
+      "description": "Website design for a pasta restaurant. The site features a menu, events, and online reservation .",
+      "skills": ["Figma", "Web Design", "UI/UX Design"],
+      "source": "https://www.figma.com/design/ySRhTy3sH5Iro2oxMzZre5/Untitled?t=iVuZjpTT0V8XX3zJ-0"
+    },
+     {
+      "title": "E-commerce Website for Clothing - Boutiket.tn",
+      "imageSrc": "projects/figma_boutiket.png",
+      "description": "Design for an e-commerce website specializing in clothing. My first design.",
+      "skills": ["Figma", "E-commerce Design", "UI/UX Design"],
+      "source": "https://www.figma.com/design/pPWwaXZNnhW1gupkmL8TzR/boutiket.tn?node-id=0-1&node-type=canvas&t=mFdgGml8QI1agTS3-0"
+    },
+    {
+      "title": "Poster Design for Event - Leisure Project",
+      "imageSrc": "projects/pub.png",
+      "description": "Creative poster design for an event aimed at promoting leisure activities and cultural engagement.",
+      "skills": ["Figma", "Graphic Design", "Poster Design"],
+      "source": "https://www.figma.com/design/UroJ7CFrAusJICIPdtNIaJ/Untitled?node-id=0-1&node-type=canvas&t=zNLTOQ5HFlfO1rPF-0"
+    }
+  ]
+}

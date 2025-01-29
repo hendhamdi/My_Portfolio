@@ -1,0 +1,99 @@
+@import "../../vars.css";
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(12, 12, 12, 0.6);
+    border-radius: 15px;
+     margin-bottom: -80px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--color-text);
+    z-index: 1;
+}
+
+ .title {
+    font-size: 45px;
+    margin-top: 120px;
+    font-weight: 900;
+    margin-left: 10%;
+    font-family: "Playwrite US Modern", cursive;
+   color:rgb(248, 249, 252);
+   margin-bottom: 50px;
+}
+.description {
+    font-size: 23px;
+    font-family: "Playwrite US Modern", cursive;
+    margin-bottom: 52px;
+    margin-right: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.content .stage1 {
+    font-size: 28px;
+    font-family: "Playwrite US Modern", cursive;
+    
+}
+.expImg {
+    margin-top: -10px;
+    width: 23%;
+    z-index: 1;
+    margin-right: 15px;
+  
+}
+.container1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 120px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(12, 12, 12, 0.6);
+        border-radius: 15px;
+        padding: 50px;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--color-text);
+    z-index: 1;
+}
+
+
+
+.description1 {
+    font-size: 23px;
+    font-family: "Playwrite US Modern", cursive;
+    margin-bottom: 10px;
+    margin-left: 45px;
+    margin-right: -5px;
+    margin-top: 3px;
+}
+
+.content1 .stage2 {
+    font-size: 28px;
+    font-family: "Playwrite US Modern", cursive;
+
+}
+.expImg1 {
+    margin-top: -5px;
+    width: 20%;
+    z-index: 1;
+    margin-left: -10px;
+    border-radius:10px;
+   
+    
+}
