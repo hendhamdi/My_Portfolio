@@ -13,7 +13,7 @@ This portfolio includes various sections like:
 - A personal introduction and professional background
 - A collection of projects and achievements
 - An easy-to-navigate layout
-- 
+  
 ![Homepage](public/home.png)  
 
 ### Project Structure 
