@@ -87,19 +87,20 @@ color: var(--color-text);
         margin-bottom: 20px;
     }
 }
+/* Classe pour "Technologies used:" */
 .techLabel {
    
     font-weight: bold;
+    /* Texte en gras */
     font-family: "Playwrite US Modern", cursive;
-    display: inline;
+    /* Police */
 }
 
-
+/* Classe pour la liste des technologies */
 .techStack {
   
     font-weight: bold;
-    font-size: 15px;
-        font-weight: 150;
-        font-family: 'Sacramento', cursive;
-        
+    /* Texte en gras */
+    font-family: "Playwrite US Modern", cursive;
+    /* Police */
 }

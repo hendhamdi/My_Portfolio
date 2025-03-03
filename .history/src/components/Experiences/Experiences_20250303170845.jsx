@@ -9,6 +9,7 @@ export const Experiences = () => {
       <h2 className={styles.title}>My Experiences</h2>
 
       <div className={styles.experiencesContainer}>
+       
         <div className={styles.experienceCard}>
           <img
             src={getImageUrl("experiences/mobile-app.png")}
@@ -20,12 +21,12 @@ export const Experiences = () => {
             <p className={styles.experienceDescription}>
               Designed and developed a mobile application to manage meeting room reservations at Ooredoo, with an admin dashboard for management.
               <br /><br />
-      <span className={styles.techLabel}>Technologies used:</span>{" "}
-              <span className={styles.techStack}>React, Redux, JS, API Rest, PostgreSQL, Redis, Figma</span>.
+              <strong>Technologies used:</strong> React, Redux, JS, API Rest, PostgreSQL, Redis, Figma.
             </p>
           </div>
         </div>
 
+     
         <div className={styles.experienceCard}>
           <img
             src={getImageUrl("experiences/web-app.png")}
@@ -37,13 +38,12 @@ export const Experiences = () => {
             <p className={styles.experienceDescription}>
               Designed and developed the frontend of an online platform to facilitate communication between experts and insured individuals, with an admin dashboard for management.
               <br /><br />
-      <span className={styles.techLabel}>Technologies used:</span>{" "}
-              <span className={styles.techStack}>HTML, CSS,
-                Firebase</span>.
+              <strong>Technologies used:</strong> HTML, CSS, JS, Firebase.
             </p>
           </div>
         </div>
 
+      
         <div className={styles.experienceCard}>
           <img
             src={getImageUrl("experiences/accounting.png")}
@@ -55,8 +55,7 @@ export const Experiences = () => {
             <p className={styles.experienceDescription}>
               Managed bank entries, purchase and sales invoices, and cash flow tracking.
               <br /><br />
-      <span className={styles.techLabel}>Technologies used:</span>{" "}
-              <span className={styles.techStack}>In-house proprietary accounting software</span>.
+              <strong>Technologies used:</strong > In-house proprietary accounting software.
             </p>
           </div>
         </div>

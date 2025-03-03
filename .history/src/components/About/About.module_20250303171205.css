@@ -58,8 +58,8 @@
     list-style: none;
     padding: 6px;
     background-image: linear-gradient(0deg,
-            rgba(251, 234, 104, 0.119) 10%,
-            rgba(198, 199, 201, 0) 100%);
+            rgba(145, 137, 28, 0.42) 10%,
+            rgba(12, 82, 140, 0.178) 100%);
     background-size: 0 100%;
     background-repeat: no-repeat;
     transition: 0.4s;

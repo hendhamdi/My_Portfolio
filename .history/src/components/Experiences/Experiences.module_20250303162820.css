@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  justify-content: space-around;  /* Distribution égale des cadres */
+  align-items: flex-start;
+  margin-top: 10px;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Centrage horizontal */
+  color: var(--color-text);
+  text-align: center;
+}
+
+.title {
+  font-size: 45px;
+  margin-top: 120px;
+  font-weight: 900;
+  font-family: "Playwrite US Modern", cursive;
+  color: rgb(248, 249, 252);
+  margin-bottom: 50px;
+}
+
+.description {
+  font-size: 23px;
+  font-family: "Playwrite US Modern", cursive;
+  margin-bottom: 52px;
+  margin-top: 20px;
+}
+
+.stage1 {
+  font-size: 28px;
+  font-family: "Playwrite US Modern", cursive;
+}
+
+.expImg {
+  margin-top: 10px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-around;  /* Distribution égale des cadres */
+  align-items: flex-start;
+  margin-top: 10px;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.content1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Centrage horizontal */
+  color: var(--color-text);
+  text-align: center;
+}
+
+.description1 {
+  font-size: 23px;
+  font-family: "Playwrite US Modern", cursive;
+  margin-bottom: 10px;
+}
+
+.stage2 {
+  font-size: 28px;
+  font-family: "Playwrite US Modern", cursive;
+}
+
+.expImg1 {
+  margin-top: 10px;
+  width: 80%;
+  border-radius: 10px;
+}

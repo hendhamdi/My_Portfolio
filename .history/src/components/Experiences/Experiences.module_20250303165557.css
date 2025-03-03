@@ -38,7 +38,7 @@ color: var(--color-text);
     border-radius: 15px;
     padding: 20px;
     width: 30%;
-   
+    /* Largeur des cadres */
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -59,7 +59,7 @@ color: var(--color-text);
 }
 
 .experienceTitle {
-    font-size: 23px;
+    font-size: 24px;
     font-weight: 600;
     font-family: "Playwrite US Modern", cursive;
     margin-bottom: 15px;
@@ -73,6 +73,7 @@ color: var(--color-text);
         font-weight: 100;
         font-style: normal;
         text-align: justify;
+        max-width: 90%;
         color: #ded8d8;
 }
 
@@ -86,20 +87,4 @@ color: var(--color-text);
         width: 80%;
         margin-bottom: 20px;
     }
-}
-.techLabel {
-   
-    font-weight: bold;
-    font-family: "Playwrite US Modern", cursive;
-    display: inline;
-}
-
-
-.techStack {
-  
-    font-weight: bold;
-    font-size: 15px;
-        font-weight: 150;
-        font-family: 'Sacramento', cursive;
-        
 }

@@ -8,22 +8,21 @@
 
 .title {
     font-size: 35px;
-        font-weight: 750;
+    font-weight: 750;
     font-family: "Playwrite US Modern", cursive;
     color: rgb(248, 249, 252);
     text-align: center;
     margin-bottom: 50px;
 }
+
 .title1 {
-color: var(--color-text);
+    color: var(--color-text);
     font-size: 15px;
     font-weight: 150;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     font-family: 'Sacramento', cursive;
-    margin-left: 4%;
     text-align: center;
-   
 }
 
 .experiencesContainer {
@@ -38,7 +37,6 @@ color: var(--color-text);
     border-radius: 15px;
     padding: 20px;
     width: 30%;
-   
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -67,13 +65,37 @@ color: var(--color-text);
 
 .experienceDescription {
     font-size: 18px;
-        margin-left: 2%;
-        font-family: 'Sacramento', cursive;
-        font-optical-sizing: auto;
-        font-weight: 100;
-        font-style: normal;
-        text-align: justify;
-        color: #ded8d8;
+    margin-left: 2%;
+    font-family: 'Sacramento', cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    text-align: justify;
+    color: #ded8d8;
+}
+
+.techLabel {
+    color: #FFA500;
+    /* Couleur orange pour "Technologies used:" */
+    font-weight: bold;
+    /* Texte en gras */
+    font-family: "Playwrite US Modern", cursive;
+    /* Police */
+    display: inline;
+    /* Pour aligner sur la même ligne */
+}
+
+.techStack {
+    color: #4CAF50;
+    /* Couleur verte pour les technologies */
+    font-weight: bold;
+    /* Texte en gras */
+    font-family: "Playwrite US Modern", cursive;
+    /* Police */
+    display: inline;
+    /* Pour aligner sur la même ligne */
+    font-size: 15px;
+    /* Taille de la police */
 }
 
 @media screen and (max-width: 830px) {
@@ -86,20 +108,4 @@ color: var(--color-text);
         width: 80%;
         margin-bottom: 20px;
     }
-}
-.techLabel {
-   
-    font-weight: bold;
-    font-family: "Playwrite US Modern", cursive;
-    display: inline;
-}
-
-
-.techStack {
-  
-    font-weight: bold;
-    font-size: 15px;
-        font-weight: 150;
-        font-family: 'Sacramento', cursive;
-        
 }

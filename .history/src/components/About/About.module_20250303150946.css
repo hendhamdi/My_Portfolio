@@ -2,7 +2,8 @@
 
 .container {
     position: relative;
-    background: rgba(255, 255, 255, 0.1);    border-radius: 15px;
+    background-color: rgba(12, 12, 12, 0.6);
+    border-radius: 15px;
     padding: 40px;
     margin-top: 129px;
     z-index: 1;
@@ -21,13 +22,12 @@
 }
 .title1 {
     color: var(--color-text);
-    font-size: 15px;
-    font-weight: 150;
-   
+    font-size: 13px;
+    font-weight: 750;
     letter-spacing: 0.5px;
     text-transform: uppercase;
-    font-family: 'Sacramento', cursive;  
-      margin-left: 4%;
+    font-family: "Playwrite US Modern", cursive;
+    margin-left: 4%;
 }
 
 .content {
@@ -58,8 +58,8 @@
     list-style: none;
     padding: 6px;
     background-image: linear-gradient(0deg,
-            rgba(251, 234, 104, 0.119) 10%,
-            rgba(198, 199, 201, 0) 100%);
+            rgba(122, 130, 90, 0.42) 10%,
+            rgba(140, 127, 12, 0) 100%);
     background-size: 0 100%;
     background-repeat: no-repeat;
     transition: 0.4s;
@@ -78,15 +78,14 @@
 }
 
 .aboutItem p {
-    font-size: 18px;
+    font-size: 20px;
     margin-left: 2%;
-    font-family: 'Sacramento', cursive;
-    font-optical-sizing: auto;
-        font-weight: 100;
+    font-family: "Playwrite US Modern", cursive;
+        font-optical-sizing: auto;
+        font-weight: 1;
         font-style: normal;
-        text-align: justify;
-        max-width: 90%;
-        color: #ded8d8;
+        letter-spacing: 0.02px;
+            /* Ajuste l'espacement entre les lettres */
 }
 
 @media screen and (max-width: 830px) {
@@ -118,7 +117,7 @@
 margin-right: 8px;
 width: 35px; }
 .aboutItems .aboutItem .icon2 {
-    margin-top: -10%;
+    margin-top: -11.5%;
     margin-right: 8px;
-    width: 28px;
+    width: 30px;
 }

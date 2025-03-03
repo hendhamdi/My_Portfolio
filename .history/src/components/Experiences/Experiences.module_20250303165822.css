@@ -87,19 +87,3 @@ color: var(--color-text);
         margin-bottom: 20px;
     }
 }
-.techLabel {
-   
-    font-weight: bold;
-    font-family: "Playwrite US Modern", cursive;
-    display: inline;
-}
-
-
-.techStack {
-  
-    font-weight: bold;
-    font-size: 15px;
-        font-weight: 150;
-        font-family: 'Sacramento', cursive;
-        
-}

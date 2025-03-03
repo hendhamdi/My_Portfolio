@@ -20,7 +20,7 @@ export const Experiences = () => {
             <p className={styles.experienceDescription}>
               Designed and developed a mobile application to manage meeting room reservations at Ooredoo, with an admin dashboard for management.
               <br /><br />
-      <span className={styles.techLabel}>Technologies used:</span>{" "}
+              <strong className={styles.techLabel}>Technologies used:</strong>{" "}
               <span className={styles.techStack}>React, Redux, JS, API Rest, PostgreSQL, Redis, Figma</span>.
             </p>
           </div>
@@ -37,7 +37,7 @@ export const Experiences = () => {
             <p className={styles.experienceDescription}>
               Designed and developed the frontend of an online platform to facilitate communication between experts and insured individuals, with an admin dashboard for management.
               <br /><br />
-      <span className={styles.techLabel}>Technologies used:</span>{" "}
+              <strong className={styles.techLabel}>Technologies used:</strong>{" "}
               <span className={styles.techStack}>HTML, CSS,
                 Firebase</span>.
             </p>
@@ -55,7 +55,7 @@ export const Experiences = () => {
             <p className={styles.experienceDescription}>
               Managed bank entries, purchase and sales invoices, and cash flow tracking.
               <br /><br />
-      <span className={styles.techLabel}>Technologies used:</span>{" "}
+              <strong className={styles.techLabel}>Technologies used:</strong>{" "}
               <span className={styles.techStack}>In-house proprietary accounting software</span>.
             </p>
           </div>

@@ -88,18 +88,25 @@ color: var(--color-text);
     }
 }
 .techLabel {
-   
+    color: #FFA500;
+    /* Couleur orange pour "Technologies used:" */
     font-weight: bold;
+    /* Texte en gras */
     font-family: "Playwrite US Modern", cursive;
+    /* Police */
     display: inline;
+    /* Pour aligner sur la même ligne */
 }
 
-
 .techStack {
-  
+    color: #4CAF50;
+    /* Couleur verte pour les technologies */
     font-weight: bold;
+    /* Texte en gras */
+    font-family: "Playwrite US Modern", cursive;
+    /* Police */
+    display: inline;
+    /* Pour aligner sur la même ligne */
     font-size: 15px;
-        font-weight: 150;
-        font-family: 'Sacramento', cursive;
-        
+    /* Taille de la police */
 }

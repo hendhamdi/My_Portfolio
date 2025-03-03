@@ -9,9 +9,10 @@ export const Experiences = () => {
       <h2 className={styles.title}>My Experiences</h2>
 
       <div className={styles.experiencesContainer}>
+        {/* Cadre 1 : Ooredoo */}
         <div className={styles.experienceCard}>
           <img
-            src={getImageUrl("experiences/mobile-app.png")}
+            src={getImageUrl("experiences/ooredoo-project.png")}
             alt="Ooredoo Project"
             className={styles.expImg}
           />
@@ -20,15 +21,15 @@ export const Experiences = () => {
             <p className={styles.experienceDescription}>
               Designed and developed a mobile application to manage meeting room reservations at Ooredoo, with an admin dashboard for management.
               <br /><br />
-      <span className={styles.techLabel}>Technologies used:</span>{" "}
-              <span className={styles.techStack}>React, Redux, JS, API Rest, PostgreSQL, Redis, Figma</span>.
+              <strong>Technologies used:</strong> React, Redux, JS, API Rest, PostgreSQL, Redis, Figma.
             </p>
           </div>
         </div>
 
+        {/* Cadre 2 : STAR */}
         <div className={styles.experienceCard}>
           <img
-            src={getImageUrl("experiences/web-app.png")}
+            src={getImageUrl("experiences/star.png")}
             alt="STAR Project"
             className={styles.expImg}
           />
@@ -37,26 +38,24 @@ export const Experiences = () => {
             <p className={styles.experienceDescription}>
               Designed and developed the frontend of an online platform to facilitate communication between experts and insured individuals, with an admin dashboard for management.
               <br /><br />
-      <span className={styles.techLabel}>Technologies used:</span>{" "}
-              <span className={styles.techStack}>HTML, CSS,
-                Firebase</span>.
+              <strong>Technologies used:</strong> HTML, CSS, JS, Firebase.
             </p>
           </div>
         </div>
 
+        {/* Cadre 3 : Ajoute une troisième expérience ici si nécessaire */}
         <div className={styles.experienceCard}>
           <img
-            src={getImageUrl("experiences/accounting.png")}
+            src={getImageUrl("experiences/placeholder.png")} // Remplace par une image réelle
             alt="Third Experience"
             className={styles.expImg}
           />
           <div className={styles.experienceContent}>
-            <h3 className={styles.experienceTitle}>Accounting Internship - Accounting Firm</h3>
+            <h3 className={styles.experienceTitle}>Third Experience</h3>
             <p className={styles.experienceDescription}>
-              Managed bank entries, purchase and sales invoices, and cash flow tracking.
+              Description of the third experience. Add details about the project and technologies used.
               <br /><br />
-      <span className={styles.techLabel}>Technologies used:</span>{" "}
-              <span className={styles.techStack}>In-house proprietary accounting software</span>.
+              <strong>Technologies used:</strong> List technologies here.
             </p>
           </div>
         </div>
