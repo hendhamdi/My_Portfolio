@@ -19,7 +19,7 @@ export const Experiences = () => {
             <h3 className={styles.experienceTitle}>End-of-Studies Internship - Ooredoo</h3>
             <p className={styles.experienceDescription}>
               Designed and developed a mobile application to manage meeting room reservations at Ooredoo, with an admin dashboard for management.
-              <br /><br /><br />
+              <br /><br /><br /><br />
       <span className={styles.techLabel}>Technologies used:</span>{" "}
               <span className={styles.techStack}>React, Redux, JS, API Rest, PostgreSQL, Redis, Figma</span>.
             </p>

@@ -4,7 +4,6 @@
   color: var(--color-text);
   margin: 140px 10% 12% 10%;
   text-align: center;
-  
 }
 
 .title {
@@ -14,44 +13,35 @@
   text-transform: uppercase;
   font-family: "Playwrite US Modern", cursive;
   margin-bottom: 40px;
-      margin-bottom: 50px;
-      
-  
-}
-.subtitle{
-  color: var(--color-text);
-    font-size: 15px;
-    font-weight: 150;
-  
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    font-family: 'Sacramento', cursive;
-        margin-bottom: 10px;
 }
 
+/* Grille des compétences */
 .skillsGrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 15px;
+  gap: 25px;
   justify-content: center;
 }
 
+/* Carte des compétences */
 .skillCard {
-background: rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
-  padding: 5px;
-  box-shadow: 0px 4px 10px rgba(171, 170, 170, 0.514);
+  background-color: rgba(240, 248, 255, 0.17);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   align-items: center;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
+/* Effet 3D au survol */
 .skillCard:hover {
   transform: translateY(-8px);
-  box-shadow: 0px 10px 20px rgba(250, 248, 248, 0.378);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
+/* Conteneur de l'icône */
 .skillImage {
   background: #ffffff00;
   border-radius: 50%;
@@ -64,15 +54,18 @@ background: rgba(255, 255, 255, 0.1);
   transition: background 0.3s ease-in-out;
 }
 
+/* Icône */
 .skillImage img {
   width: 50px;
   transition: transform 0.3s ease-in-out;
 }
 
+/* Effet de rotation au survol */
 .skillCard:hover .skillImage img {
   transform: rotate(10deg) scale(1.1);
 }
 
+/* Nom de la compétence */
 .skillTitle {
   font-size: 18px;
   font-weight: 500;
@@ -87,7 +80,7 @@ background: rgba(255, 255, 255, 0.1);
   }
 
   .skillCard {
-    padding: 15px;
+    padding: 10px;
   }
 
   .skillImage {

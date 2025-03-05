@@ -108,8 +108,27 @@ color: var(--color-text);
 }
 
 
-
-.experienceCard:hover {
+.global::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 80%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0) 60%);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    filter: blur(50px);
+}
+.experienceCard {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}.experienceCard:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 30px rgba(255, 255, 255, 0.2), 0 8px 16px rgba(0, 0, 0, 0.3);
 }

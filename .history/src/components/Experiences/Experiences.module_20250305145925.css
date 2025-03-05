@@ -5,7 +5,13 @@
     border-radius: 15px;
     margin: 120px 10% 0;
     position: relative;
-        
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+        padding: 40px;
+        margin-top: 129px;
+        z-index: 1;
+        margin-left: 12%;
+        margin-right: 10%;
 }
 
 .title {
@@ -23,8 +29,8 @@ color: var(--color-text);
     letter-spacing: 0.5px;
     text-transform: uppercase;
     font-family: 'Sacramento', cursive;
+    margin-left: 4%;
     text-align: center;
-    
    
 }
 
@@ -108,8 +114,3 @@ color: var(--color-text);
 }
 
 
-
-.experienceCard:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 30px rgba(255, 255, 255, 0.2), 0 8px 16px rgba(0, 0, 0, 0.3);
-}

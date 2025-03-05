@@ -8,10 +8,6 @@
     "imageSrc": "skills/css.png"
   },
   {
-    "title": "JS",
-    "imageSrc": "skills/js.png"
-  },
-  {
     "title": "React",
     "imageSrc": "skills/react.png"
   },
@@ -20,8 +16,8 @@
     "imageSrc": "skills/bootstrap1.png"
   },
   {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongo.png"
+    "title": "Angular",
+    "imageSrc": "skills/angular1.png"
   },
   {
     "title": "Firebase",
@@ -45,10 +41,14 @@
     "imageSrc": "skills/Linux.png"
   },
   {
-    "title": "Git",
-    "imageSrc": "skills/git.png"
+    "title": "Node-red",
+    "imageSrc": "skills/nod.png"
   }
-  
+  ,
+  {
+    "title": "Thingsboard",
+    "imageSrc": "skills/thin.png"
+  }
   ,
   {
     "title": "UML",

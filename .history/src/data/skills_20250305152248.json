@@ -45,10 +45,14 @@
     "imageSrc": "skills/Linux.png"
   },
   {
-    "title": "Git",
-    "imageSrc": "skills/git.png"
+    "title": "Node-red",
+    "imageSrc": "skills/nod.png"
   }
-  
+  ,
+  {
+    "title": "Thingsboard",
+    "imageSrc": "skills/thin.png"
+  }
   ,
   {
     "title": "UML",

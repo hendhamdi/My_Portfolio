@@ -19,7 +19,7 @@ export const Experiences = () => {
             <h3 className={styles.experienceTitle}>End-of-Studies Internship - Ooredoo</h3>
             <p className={styles.experienceDescription}>
               Designed and developed a mobile application to manage meeting room reservations at Ooredoo, with an admin dashboard for management.
-              <br /><br /><br />
+              <br /><br />
       <span className={styles.techLabel}>Technologies used:</span>{" "}
               <span className={styles.techStack}>React, Redux, JS, API Rest, PostgreSQL, Redis, Figma</span>.
             </p>
@@ -37,9 +37,10 @@ export const Experiences = () => {
             <p className={styles.experienceDescription}>
               Designed and developed the frontend of an online platform to facilitate communication between experts and insured individuals, with an admin dashboard for management.
               <br /><br />
+              <div className={styles.techContainer}>
       <span className={styles.techLabel}>Technologies used:</span>{" "}
               <span className={styles.techStack}>HTML, CSS,
-                Firebase</span>.
+                Firebase</span>.</div>
             </p>
           </div>
         </div>
@@ -54,9 +55,10 @@ export const Experiences = () => {
             <h3 className={styles.experienceTitle}>Accounting Internship - Accounting Firm</h3>
             <p className={styles.experienceDescription}>
               Managed bank entries, purchase and sales invoices, and cash flow tracking.
-              <br /><br /><br /><br /><br />
+              <br /><br />
+              <div className={styles.techContainer}>
       <span className={styles.techLabel}>Technologies used:</span>{" "}
-              <span className={styles.techStack}>In-house proprietary accounting software</span>.
+              <span className={styles.techStack}>In-house proprietary accounting software</span>.</div>
             </p>
           </div>
         </div>

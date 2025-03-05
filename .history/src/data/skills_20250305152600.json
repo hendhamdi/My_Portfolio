@@ -48,7 +48,11 @@
     "title": "Git",
     "imageSrc": "skills/git.png"
   }
-  
+  ,
+  {
+    "title": "Thingsboard",
+    "imageSrc": "skills/thin.png"
+  }
   ,
   {
     "title": "UML",

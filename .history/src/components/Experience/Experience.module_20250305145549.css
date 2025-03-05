@@ -4,7 +4,6 @@
   color: var(--color-text);
   margin: 140px 10% 12% 10%;
   text-align: center;
-  
 }
 
 .title {
@@ -14,19 +13,6 @@
   text-transform: uppercase;
   font-family: "Playwrite US Modern", cursive;
   margin-bottom: 40px;
-      margin-bottom: 50px;
-      
-  
-}
-.subtitle{
-  color: var(--color-text);
-    font-size: 15px;
-    font-weight: 150;
-  
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    font-family: 'Sacramento', cursive;
-        margin-bottom: 10px;
 }
 
 .skillsGrid {

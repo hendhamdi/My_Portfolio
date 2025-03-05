@@ -4,8 +4,6 @@
     padding: 40px 0;
     border-radius: 15px;
     margin: 120px 10% 0;
-    position: relative;
-        
 }
 
 .title {
@@ -23,8 +21,8 @@ color: var(--color-text);
     letter-spacing: 0.5px;
     text-transform: uppercase;
     font-family: 'Sacramento', cursive;
+    margin-left: 4%;
     text-align: center;
-    
    
 }
 
@@ -39,7 +37,7 @@ color: var(--color-text);
     background: rgba(255, 255, 255, 0.1);
     border-radius: 15px;
     padding: 20px;
-    width: 30%;
+    width: 20%;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -60,14 +58,14 @@ color: var(--color-text);
 }
 
 .experienceTitle {
-    font-size: 22px;
+    font-size: 23px;
     font-weight: 600;
     font-family: "Playwrite US Modern", cursive;
     margin-bottom: 15px;
 }
 
 .experienceDescription {
-        font-size: 17px;
+        font-size: 18px;
         margin-left: 2%;
         font-family: 'Sacramento', cursive;
         font-optical-sizing: auto;
@@ -108,8 +106,3 @@ color: var(--color-text);
 }
 
 
-
-.experienceCard:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 30px rgba(255, 255, 255, 0.2), 0 8px 16px rgba(0, 0, 0, 0.3);
-}
