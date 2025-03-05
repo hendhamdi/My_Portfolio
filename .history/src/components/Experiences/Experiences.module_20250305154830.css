@@ -109,5 +109,5 @@ color: var(--color-text);
 
 .experienceCard:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 30px rgba(188, 182, 68, 0.812), 0 8px 16px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 30px rgba(212, 202, 14, 0.341), 0 8px 16px rgba(0, 0, 0, 0.3);
 }
