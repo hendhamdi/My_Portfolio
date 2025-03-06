@@ -8,15 +8,17 @@ export const Projects = () => {
     <section className={styles.container} id="projects">
       <h2 className={styles.title}>My Development & Design Projects</h2>
 
+      {/* Développement */}
       <h3 className={styles.subTitle}>Development Projects</h3>
-      <div className={styles.projects}>
+      <div className={styles.projects} aria-label="Development Projects">
         {projects.devProjects.map((project, id) => (
           <ProjectCard key={id} project={project} />
         ))}
       </div>
 
+      {/* Design */}
       <h3 className={styles.subTitle}>Design Projects</h3>
-      <div className={styles.projects}>
+      <div className={styles.projects} aria-label="Design Projects">
         {projects.designProjects.map((project, id) => (
           <ProjectCard key={id} project={project} />
         ))}

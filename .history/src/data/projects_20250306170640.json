@@ -10,7 +10,7 @@
     
   },
   {
-    "title": "Management-Teachers-Sessions",
+    "title": "Gestion-Enseignants-Seances",
     "imageSrc": "projects/ensigant.png",
     "description": "A JavaFX-based application for managing teachers and class schedules in a school.",
     "skills": ["JavaFX", "MySQL", "CSS","FXML"],

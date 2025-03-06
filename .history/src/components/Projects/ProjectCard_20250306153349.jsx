@@ -17,7 +17,7 @@ export const ProjectCard = ({ project: { title, imageSrc, description, skills, s
 
       <div className={styles.links}>
         <a href={source} className={styles.link} target="_blank" rel="noopener noreferrer">
-          See more
+          Voir plus
         </a>
       </div>
     </div>

@@ -1,13 +1,15 @@
 @import "../../vars.css";
 
+/* Container général pour la section des projets */
 .container {
-    margin-top: 70px;
+    margin-top: 80px;
     color: var(--color-text);
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 7%;
 }
 
+/* Titre de la section des projets */
 .title {
     font-size: 35px;
     font-weight: 700;
@@ -15,33 +17,36 @@
     text-transform: uppercase;
     text-align: center;
     font-family: "Playwrite US Modern", cursive;
-    margin-bottom: -50px;
+    margin-bottom: 40px;
     color: var(--color-text);
 }
 
+/* Sous-titres des différentes catégories de projets */
 .subTitle {
     font-size: 24px;
     font-weight: 600;
     text-transform: capitalize;
-    margin-top: 80px;
+    margin-top: 40px;
     text-align: center;
     font-family: "Playwrite US Modern", cursive;
     color: var(--color-text);
     margin-bottom: 20px;
 }
 
+/* Conteneur des projets, disposition en flex */
 .projects {
     margin-top: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
     flex-wrap: wrap;
+    /* Permet aux cartes de passer à la ligne sur les petits écrans */
     padding: 15px;
-   
 }
 
+/* Styling pour la scrollbar horizontale des projets (facultatif) */
 .projects::-webkit-scrollbar {
     height: 10px;
 }

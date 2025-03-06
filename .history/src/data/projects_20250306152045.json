@@ -2,39 +2,12 @@
   "devProjects": [
     {
     "title": "PastaQuest",
-    "imageSrc": "projects/pasta.png",
+    "imageSrc": "projects/im.png",
     "description": "PastaQuest is a web project aimed at creating a modern, user-friendly website for a pasta-specialized restaurant.",
-    "skills": ["ReactJS", "MongoDB", "CSS","Node.js","Express.js"],
+    "skills": ["HTML & CSS", "BOOTSTRAP", "JS"],
    
+    "source": "https://github.com/hendhamdi/PastaQuest",
     "source": "https://github.com/hendhamdi/PastaQuest"
-    
-  },
-  {
-    "title": "Management-Teachers-Sessions",
-    "imageSrc": "projects/ensigant.png",
-    "description": "A JavaFX-based application for managing teachers and class schedules in a school.",
-    "skills": ["JavaFX", "MySQL", "CSS","FXML"],
-   
-    "source": "https://github.com/hendhamdi/PastaQuest"
-    
-  },
-  {
-    "title": "Open Source contribution",
-    "imageSrc": "projects/contribution.png",
-    "description": "Participate in an open-source project by fixing bugs, optimizing performance and adding new features to improve the user experience.",
-    "skills": ["GitHub", "Git","Markdown"],
-   
-    "source": "https://github.com/hendhamdi"
-    
-  },
-  {
-    "title": "Deep_learning",
-    "imageSrc": "projects/R.jpg",
-    "description": "This Python script uses the PyTorch library to configure, train and evaluate a conventional neural network for image classification.",
-    "skills": ["Python", "Matplotlib", "PyTorch","CNN"],
-    
-    "source": "https://github.com/hendhamdi/deep_learning-cnn-master.github.io",
-    "demo": "https://www.example.com"
   },
   {
     "title": "Mon Labo",
@@ -63,10 +36,18 @@
   }
   
   ,
-  
+  {
+    "title": "Deep_learning",
+    "imageSrc": "projects/R.jpg",
+    "description": "This Python script uses the PyTorch library to configure, train and evaluate a conventional neural network for image classification.",
+    "skills": ["React-Js", "HTML & CSS", "JS"],
+    
+    "source": "https://github.com/hendhamdi/deep_learning-cnn-master.github.io",
+    "demo": "https://www.example.com"
+  },
   {
     "title": "Simple calculator",
-    "imageSrc": "projects/cal.png",
+    "imageSrc": "projects/calc.png",
     "description": " Simple calculator for beginners, basic calculator with addition, subtraction, division and multiplication",
     "skills": ["React-Js", "HTML & CSS", "JS"],
     

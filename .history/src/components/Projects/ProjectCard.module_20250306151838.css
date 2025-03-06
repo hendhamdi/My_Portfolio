@@ -3,19 +3,75 @@
 .container {
     display: flex;
     flex-direction: column;
-    text-align: left;
     border-radius: 10px;
     background: linear-gradient(180deg, #ffffff1a 0%, #374b6e9f 100%);
     padding: 18px 24px;
-    width: 280px;
-    height: 380px;
+    max-width: 340px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    overflow: hidden;
 }
 
 .container:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 20px rgba(188, 182, 68, 0.449), 0 8px 16px rgba(0, 0, 0, 0.3);
+box-shadow: 0 8px 20px rgba(188, 182, 68, 0.449), 0 8px 16px rgba(0, 0, 0, 0.3);}
+
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Playwrite US Modern", cursive;
+    margin-top: 10px;
+    color: var(--color-text);
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Sacramento', cursive;  
+      color: var(--color-text);
+}
+
+.skills {
+    width: 100%;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+}
+
+.skill {
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 100px;
+    background: var(--color-dark);
+    padding: 3px 20px;
+    font-family: 'Sacramento', cursive; 
+       color: var(--color-text);
+}
+
+.links {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(236, 236, 87);
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 100px;
+    background-color:var(--color-dark);
+    padding: 8px 22px;
+    font-family: 'Sacramento', cursive;    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.link:hover {
+    color: rgb(62, 62, 149);
+    background-color: rgb(194, 194, 131);
 }
 
 .image {
@@ -24,70 +80,4 @@
     height: 120px;
     object-fit: cover;
     margin-bottom: 10px;
-}
-
-.title {
-    font-size: 18px;
-    font-weight: 700;
-    font-family: "Playwrite US Modern", cursive;
-    margin-top: 10px;
-    color: var(--color-text);
-    text-align: left;
-}
-
-.description {
-    margin-top: 10px;
-    font-size: 14px;
-    font-weight: 400;
-    font-family: 'Sacramento', cursive;
-    color: var(--color-text);
-    text-align: left;
-    flex-grow: 1;
-    overflow: hidden;
-}
-
-.skills {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 6px;
-    padding: 0;
-    margin: 12px 0;
-    list-style: none;
-}
-
-.skill {
-    font-size: 11px;
-    font-weight: 400;
-    border-radius: 100px;
-    background: var(--color-dark);
-    padding: 3px 12px;
-    font-family: 'Sacramento', cursive;
-    color: var(--color-text);
-}
-
-.links {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: auto;
-}
-
-.link {
-    text-decoration: none;
-    color: rgb(236, 236, 87);
-    font-size: 14px;
-    font-weight: 500;
-    border-radius: 100px;
-    background-color: var(--color-dark);
-    padding: 8px 20px;
-    font-family: 'Sacramento', cursive;
-    cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    text-align: left;
-}
-
-.link:hover {
-    color: rgb(9, 9, 87);
-    background-color: rgb(194, 194, 131);
 }
