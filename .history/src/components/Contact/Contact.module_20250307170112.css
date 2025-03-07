@@ -1,0 +1,157 @@
+/* Conteneur principal */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 90px 10%;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+/* Texte principal */
+.text h2 {
+    font-family: "Playwrite US Modern", cursive;
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.text p {
+    font-family: "Playwrite US Modern", cursive;
+    font-size: 20px;
+    color: #e6e6e6;
+}
+
+.text {
+    text-align: center;
+    color: #fff;
+}
+
+/* Colonnes */
+.column {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.471);
+}
+
+/* Animation d'image */
+.email {
+    width: 100%;
+    max-width: 270px;
+    z-index: 1;
+    animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 20px);
+    }
+
+    100% {
+        transform: translate(0, 0px);
+    }
+}
+
+/* Formulaire */
+.formGroup {
+    margin-bottom: 10px;
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: "Playwrite US Modern", cursive;
+    color: #ffffff;
+}
+
+.input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #fffdfd29;
+    border-radius: 5px;
+    font-family: "Playwrite US Modern", cursive;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+    color:#fffdfd;
+    background:#fdfeff98;
+}
+
+.input:focus {
+    border-color: #075ae8;
+    box-shadow: 0 0 5px rgba(7, 90, 232, 0.5);
+}
+
+.submitBtn {
+    background-color: #2453a4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Playwrite US Modern", cursive;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+}
+
+.submitBtn:hover {
+    background-color: #cdad42ad;
+}
+
+/* Liens sociaux */
+.links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.link a {
+    text-decoration: none;
+    color: #fcf9f9;
+    font-family: "Playwrite US Modern", cursive;
+    font-size: 18px;
+}
+
+.icons {
+    width: 25px;
+    height: auto;
+}
+
+/* Copyright */
+.copyright {
+    text-align: center;
+    color: #fffcfc;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 10px;
+}
+
+.copyright1 {
+    margin-top: -28px;
+            margin-bottom: -10px;
+}
+
+.copyright1 p {
+    margin-top: -3px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #ddd;
+    
+}
