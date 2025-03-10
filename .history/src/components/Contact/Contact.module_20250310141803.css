@@ -1,0 +1,106 @@
+/* Conteneur principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 10%;
+    gap: 30px;
+    border-radius: 10px;
+    background-color: #2a2a2a;
+    text-align: center;
+}
+
+/* Conteneur du texte */
+.textContainer {
+    width: 100%;
+}
+
+/* Texte principal */
+.text h2 {
+    font-family: "Playwrite US Modern", cursive;
+    font-size: 35px;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.text h4 {
+    color: var(--color-text);
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+}
+
+.paragraph {
+    font-family: "Playwrite US Modern", cursive;
+    font-size: 18px;
+    color: #e6e6e6;
+    margin-top: 10px;
+}
+
+.text {
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Liens */
+.links {
+    margin-top: 20px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.link a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.link a:hover {
+    color: #075ae8;
+}
+
+/* Icones */
+.icon {
+    width: 25px;
+    height: auto;
+}
+
+/* Conteneur des images en haut */
+.topImages {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Images en haut */
+.topLeftImage,
+.topRightImage {
+    width: 45%;
+    height: auto;
+}
+
+/* Image principale (grande image) */
+.mainImage {
+    width: 60%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Copyright */
+.copyright {
+    text-align: center;
+    color: #fffcfc;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+}

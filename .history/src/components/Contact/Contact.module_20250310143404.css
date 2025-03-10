@@ -1,0 +1,117 @@
+/* Conteneur principal */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 100px 10%;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+.textContainer {
+    width: 50%;
+}
+
+.text h2 {
+    font-family: "Playwrite US Modern", cursive;
+    font-size: 35px;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.text h4 {
+    color: var(--color-text);
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: 'Sacramento', cursive;
+    text-align: left;
+}
+
+.paragraph {
+    font-family: "Playwrite US Modern", cursive;
+    font-size: 18px;
+    color: #e6e6e6;
+    margin-top: 10px;
+}
+
+.text {
+    color: #ffffff;
+    text-align: left;
+}
+
+.links {
+    margin-top: 80px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 0px;
+}
+
+.link a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.link a:hover {
+    color: #4477cf;
+}
+
+.icon {
+    width: 40px;
+    height: auto;
+}
+
+.imageContainer {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* Ajouté pour aligner les images verticalement */
+}
+
+.image {
+    width: 100%;
+    max-width: 80px;
+    animation: floating 3s ease-in-out infinite;
+}
+
+.image1 {
+    width: 100%;
+    max-width: 60px;
+    margin-left: 120px;
+    margin-top: 20px;
+    /* Décale l'image un peu en bas */
+}
+
+.image2 {
+    width: 100%;
+    max-width: 250px;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(0, 20px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.copyright {
+    text-align: center;
+    color: #fffcfc;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+}
