@@ -24,9 +24,7 @@ The project follows a clean and modular structure to ensure scalability and ease
 ---
 
 ## 🚀 Technologies & Skills  
-- **Frontend:** HTML, CSS, JavaScript, React.js  
-- **Backend:** Node.js, Express.js  
-- **Database:** MySQL  
+- **Frontend:** HTML, CSS, JavaScript, React.js   
 - **Design:** Figma
 
 
