@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: space-between;
     padding-top: 33px;
-    z-index: 999;
+    z-index: 0;
     margin: 0 10%;
    background: linear-gradient(0deg,rgba(19, 32, 54, 0.99)10%,rgb(24, 47, 91) 100% );
     padding-bottom: 30px;
