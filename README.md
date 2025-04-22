@@ -24,7 +24,18 @@ The project follows a clean and modular structure to ensure scalability and ease
 ---
 
 ## 🚀 Technologies & Skills  
-- **Frontend:** HTML, CSS, JavaScript, React.js   
-- **Design:** Figma
+
+This portfolio is built using the following technologies and tools:
+
+- **Frontend:** 
+  - HTML, CSS, JavaScript, React.js  
+  - Responsive design for mobile-first experience
+- **Design:** 
+  - Figma for wireframing and prototyping
+  - Styled Components for CSS-in-JS styling
+- **Version Control:**
+  - Git & GitHub for code versioning and collaboration
+- **Deployment:** 
+  - Vercel for hosting and continuous deployment
 
 
