@@ -24,7 +24,7 @@ export const About = () => {
               <h3>Education</h3>
               <p>
                 I am currently pursuing a Master’s in Open Source Software Engineering at ISI Ariana.
-                <br /> I also hold a Bachelor's degree in Computer Systems Engineering, specializing in IoT and Embedded Systems.
+                <br /> I also hold a Bachelor's degree in Computer Systems Engineering from ISTIC, Borj Cedria.
               </p>
             </div>
           </li>
@@ -37,8 +37,8 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Full-stack Developer & UI/UX Designer</h3>
               <p>
-                I specialize in building responsive, user-friendly websites and 
-                designing intuitive, visually appealing interfaces to enhance user experience.
+                I specialize in interface design and frontend development, creating responsive, user-friendly
+                 websites and crafting visually appealing interfaces to enhance the user experience.
               </p>
             </div>
           </li>
