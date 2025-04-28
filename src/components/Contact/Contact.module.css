@@ -15,9 +15,9 @@
 
 .text h2 {
     font-family: "Playwrite US Modern", cursive;
-    font-size: 35px;
-    color: #ffffff;
-    margin-bottom: 24px;
+    font-size: 40px;
+    color: rgb(237, 237, 122);
+    margin-bottom: 40px;
 }
 
 .text h4 {
@@ -27,13 +27,14 @@
     text-transform: uppercase;
     font-family: 'Sacramento', cursive;
     text-align: left;
+    margin-top: 15px;
 }
 
 .paragraph {
     font-family: "Playwrite US Modern", cursive;
     font-size: 18px;
     color: #e6e6e6;
-    margin-top: 10px;
+    margin-top: 1px;
 }
 
 .text {
@@ -54,7 +55,7 @@
 
 .link a {
     text-decoration: none;
-    color: #e2e383;
+    color: #f8f8f7;
     font-size: 18px;
     transition: color 0.3s ease;
 }
@@ -64,7 +65,7 @@
 }
 
 .icon {
-    width: 40px;
+    width: 30px;
     height: auto;
 }
 

@@ -37,6 +37,17 @@
     "demo": "https://www.example.com"
   },
   {
+    "title": "Lifeguard ",
+    "imageSrc": "projects/p2.png",
+    "description": " Intelligent medical wristband to measure temperature and oxygen levels after surgery, with automatic data transfer to the platform.",
+    "skills": ["JS", "HTML & CSS", "EJS","C++ ","Firebase"],
+    
+    "source": "https://github.com/hendhamdi/lifeguard-braclet-medicale.git",
+    "demo": "https://www.example.com"
+  }
+  
+  ,
+  {
     "title": "Mon Labo",
     "imageSrc": "projects/im.png",
     "description": "Online website that makes it easy to find an analysis laboratory, contact us for an appointment and access your analysis results remotely.",
@@ -52,17 +63,7 @@
     
     "source": "https://github.com/hendhamdi/pfa.github.io.git"
   },
-  {
-    "title": "Lifeguard ",
-    "imageSrc": "projects/p2.png",
-    "description": " Intelligent medical wristband to measure temperature and oxygen levels after surgery, with automatic data transfer to the platform.",
-    "skills": ["JS", "HTML & CSS", "EJS","C++ ","Firebase"],
-    
-    "source": "https://github.com/hendhamdi/lifeguard-braclet-medicale.git",
-    "demo": "https://www.example.com"
-  }
   
-  ,
   
   {
     "title": "Simple calculator",

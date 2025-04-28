@@ -12,8 +12,8 @@ export const Contact = () => {
             <h2>Contact me</h2>
 
             <p className={styles.paragraph}>
-              If you would like to get in touch, feel free to contact me via
-              email <br/>or connect with me on LinkedIn or GitHub.
+              If you would like to get in touch, feel free to contact <br/>me via
+              email or connect with me on LinkedIn or GitHub.
             </p>
 
             <div className={styles.links}>
