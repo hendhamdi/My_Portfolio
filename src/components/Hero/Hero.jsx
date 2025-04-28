@@ -15,12 +15,12 @@ export const Hero = () => {
 
 
         <p className={styles.description}>
-         I am currently pursuing a Master’s degree in Open<br/> Source Software Engineering, with a strong passion<br/> for full-stack development and UI/UX design.
+         I am currently pursuing a Master’s degree in  Open<br/> Source Software Engineering, with a strong passion<br/> for interface design and frontend development.
         <br/><br/>Feel free to reach out if you'd like to learn more!
         </p>
        
      
-       <a href="/Mon_Cv.pdf" className={styles.contactBtn} download="Mon_Cv.pdf">
+       <a href="/Cv_Hend_Hamdi.pdf" className={styles.contactBtn} download="Mon_Cv.pdf">
     Download My CV
 </a>
        
