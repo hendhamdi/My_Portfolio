@@ -53,10 +53,11 @@ export const Experiences = () => {
           <div className={styles.experienceContent}>
             <h3 className={styles.experienceTitle}>Accounting Internship - Accounting Firm</h3>
             <p className={styles.experienceDescription}>
-              Managed bank entries, purchase and sales invoices, and cash flow tracking.
-              <br /><br /><br /><br /><br />
+              Managing bank entries, purchase and sales invoices, and cash receipts to ensure 
+              accuracy in financial reporting and reconciliation.
+              <br /><br /><br />
       <span className={styles.techLabel}>Technologies used:</span>{" "}
-              <span className={styles.techStack}>In-house proprietary accounting software</span>.
+              <span className={styles.techStack}>Proprietary internal accounting software</span>.
             </p>
           </div>
         </div>
