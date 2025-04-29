@@ -31,8 +31,9 @@ This portfolio is built using the following technologies and tools:
   - HTML, CSS, JavaScript, React.js  
   - Responsive design for mobile-first experience
 - **Design:** 
-  - Figma for wireframing and prototyping
+  - Figma for wireframing and prototyping [View Figma Design](https://www.figma.com/design/vjlUz3St5l6a5yp7LK0wuX/Portfolio?node-id=34-871&t=YHIgNufOtI7PXsTX-0)
   - Styled Components for CSS-in-JS styling
+  
 - **Version Control:**
   - Git & GitHub for code versioning and collaboration
 - **Deployment:** 
