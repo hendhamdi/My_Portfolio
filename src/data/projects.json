@@ -66,13 +66,12 @@
   
   
   {
-    "title": "Simple calculator",
-    "imageSrc": "projects/cal.png",
-    "description": " Simple calculator for beginners, basic calculator with addition, subtraction, division and multiplication",
+    "title": "Sentiment-Analysis-Spark-NLP",
+    "imageSrc": "projects/spark.png",
+    "description": " This project uses a Spark pipeline (PySpark) to analyze the sentiment of user reviews.",
     "skills": ["React-Js", "HTML & CSS", "JS"],
     
-    "source": "https://github.com/hendhamdi/React-Js-for-Beginners-simple-calculator",
-    "demo": "https://www.example.com"
+    "source": "https://github.com/hendhamdi/Sentiment-Analysis-Spark-NLP"
   }
   
 ],
