@@ -58,6 +58,16 @@
   {
     "title": "ISTQB",
     "imageSrc": "skills/istqb.png"
+  },
+ 
+  {
+    "title": "UI/UX",
+    "imageSrc": "skills/ui/ux.png"
+  },
+ 
+  {
+    "title": "Angular",
+    "imageSrc": "skills/angular.png"
   }
   
   

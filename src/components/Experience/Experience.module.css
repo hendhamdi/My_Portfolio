@@ -28,10 +28,10 @@
     font-family: 'Sacramento', cursive;
         margin-bottom: 10px;
 }
-
 .skillsGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(8, 1fr);
+  /* <-- forcer 8 colonnes */
   gap: 15px;
   justify-content: center;
 }
