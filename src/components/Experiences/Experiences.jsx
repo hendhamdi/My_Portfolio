@@ -16,13 +16,21 @@ export const Experiences = () => {
             className={styles.expImg}
           />
           <div className={styles.experienceContent}>
-            <h3 className={styles.experienceTitle}>End-of-Studies Internship - Ooredoo</h3>
+            <h3 className={styles.experienceTitle}>
+              End-of-Studies Internship – Ooredoo
+            </h3>
+
             <p className={styles.experienceDescription}>
-              Designed and developed a mobile application to manage meeting room reservations at Ooredoo, with an admin dashboard for management.
-              <br /><br /><br />
-      <span className={styles.techLabel}>Technologies used:</span>{" "}
-              <span className={styles.techStack}>React, Redux, JS, API Rest, PostgreSQL, Redis, Figma</span>.
+              Built a mobile app to book meeting rooms and designed an admin
+              dashboard for easy management.
             </p>
+
+            <div className={styles.techContainer}>
+              <span className={styles.techLabel}>Tech:</span>{" "}
+              <span className={styles.techStack}>
+                React, Redux, PostgreSQL, Redis, Figma
+              </span>
+            </div>
           </div>
         </div>
 
@@ -33,32 +41,67 @@ export const Experiences = () => {
             className={styles.expImg}
           />
           <div className={styles.experienceContent}>
-            <h3 className={styles.experienceTitle}>Advanced Internship - STAR</h3>
+            <h3 className={styles.experienceTitle}>
+              Advanced Internship – STAR
+            </h3>
+
             <p className={styles.experienceDescription}>
-              Designed and developed the frontend of an online platform to facilitate communication between experts and insured individuals, with an admin dashboard for management.
-              <br /><br />
-      <span className={styles.techLabel}>Technologies used:</span>{" "}
-              <span className={styles.techStack}>HTML, CSS,
-                Firebase</span>.
+              Developed the frontend of a web platform to connect experts with
+              clients and added an admin dashboard.
             </p>
+
+            <div className={styles.techContainer}>
+              <span className={styles.techLabel}>Tech:</span>{" "}
+              <span className={styles.techStack}>HTML, CSS, Firebase</span>
+            </div>
           </div>
         </div>
 
         <div className={styles.experienceCard}>
           <img
             src={getImageUrl("experiences/accounting.png")}
-            alt="Third Experience"
+            alt="Accounting Internship"
             className={styles.expImg}
           />
           <div className={styles.experienceContent}>
-            <h3 className={styles.experienceTitle}>Accounting Internship - Accounting Firm</h3>
+            <h3 className={styles.experienceTitle}>Accounting Internship</h3>
+
             <p className={styles.experienceDescription}>
-              Managing bank entries, purchase and sales invoices, and cash receipts to ensure 
-              accuracy in financial reporting and reconciliation.
-              <br /><br /><br />
-      <span className={styles.techLabel}>Technologies used:</span>{" "}
-              <span className={styles.techStack}>Proprietary internal accounting software</span>.
+              Managed invoices, bank entries, and cash receipts to support
+              accurate financial reporting.
             </p>
+
+            <div className={styles.techContainer}>
+              <span className={styles.techLabel}>Tech:</span>{" "}
+              <span className={styles.techStack}>
+                Internal Accounting Software
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.experienceCard}>
+          <img
+            src={getImageUrl("experiences/web-app.png")}
+            alt="IAST Innov Alliance Tech"
+            className={styles.expImg}
+          />
+          <div className={styles.experienceContent}>
+            <h3 className={styles.experienceTitle}>
+              Summer Internship –Innov Alliance Tech
+            </h3>
+
+            <p className={styles.experienceDescription}>
+              Designed an interactive dashboard for R&amp;D projects and
+              contributed to a mobile app for EV charging stations.
+            </p>
+
+            <div className={styles.techContainer}>
+              <span className={styles.techLabel}>Tech:</span>{" "}
+              <span className={styles.techStack}>
+                Angular, TypeScript, React Native, Expo, Figma
+              </span>
+            </div>
           </div>
         </div>
       </div>
