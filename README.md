@@ -1,5 +1,4 @@
 # My Portfolio Website
-
 Welcome to my online portfolio! 🌐💻  
 
 A modern and responsive portfolio to showcase projects, skills, and experiences. Designed for performance, accessibility, and a seamless user experience.  
