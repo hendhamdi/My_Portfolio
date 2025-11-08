@@ -39,3 +39,9 @@ This portfolio is built using the following technologies and tools:
   - Vercel for hosting and continuous deployment
 
 
+---
+## 🔒 Privacy
+
+This website may collect personal information such as names and emails submitted via forms.  
+All data is stored securely and will not be shared with third parties without consent.  
+Users can request deletion of their data at any time by contacting hamdi.hend@etudiant-isi.utm.tn
