@@ -47,6 +47,17 @@
   }
   
   ,
+  
+  
+  
+  {
+    "title": "Sentiment-Analysis-Spark-NLP",
+    "imageSrc": "projects/spark.png",
+    "description": " This project uses a Spark pipeline (PySpark) to analyze the sentiment of user reviews.",
+    "skills": ["React-Js", "HTML & CSS", "JS"],
+    
+    "source": "https://github.com/hendhamdi/Sentiment-Analysis-Spark-NLP"
+  },
   {
     "title": "Mon Labo",
     "imageSrc": "projects/im.png",
@@ -62,16 +73,6 @@
     "skills": ["HTML & CSS","JS", "BOOTSTRAP","Firebase"],
     
     "source": "https://github.com/hendhamdi/pfa.github.io.git"
-  },
-  
-  
-  {
-    "title": "Sentiment-Analysis-Spark-NLP",
-    "imageSrc": "projects/spark.png",
-    "description": " This project uses a Spark pipeline (PySpark) to analyze the sentiment of user reviews.",
-    "skills": ["React-Js", "HTML & CSS", "JS"],
-    
-    "source": "https://github.com/hendhamdi/Sentiment-Analysis-Spark-NLP"
   }
   
 ],
@@ -90,6 +91,13 @@
       "skills": ["Figma", "Web Design", "UI/UX Design"],
       "source": "https://www.figma.com/design/ySRhTy3sH5Iro2oxMzZre5/Untitled?t=iVuZjpTT0V8XX3zJ-0"
     },
+    {
+      "title": "Dashboard – Head of Research & Development",
+      "imageSrc": "projects/R&D_Dashboard.png",
+      "description": "R&D dashboard design showing projects, stats, goals, clients, and deadlines.",
+      "skills": ["Figma", "Dashboard Design", "UI/UX Design"],
+      "source": "https://www.figma.com/design/14DtDDux0Q5tbC5vtcRubg/R-D-Dashboard?t=joQ87NPmAZ9Rp3d8-0"
+    },
      {
       "title": "E-commerce Website for Clothing - Boutiket.tn",
       "imageSrc": "projects/boutiket.png",
@@ -98,11 +106,19 @@
       "source": "https://www.figma.com/design/pPWwaXZNnhW1gupkmL8TzR/boutiket.tn?node-id=0-1&node-type=canvas&t=mFdgGml8QI1agTS3-0"
     },
     {
+      "title": "My Portfolio Website",
+      "imageSrc": "projects/portfolio.png",
+      "description": "Portfolio website showcasing projects, skills, and experience with a modern, responsive design.",
+      "skills": ["Figma", "Web Design", "UI/UX Design"],
+      "source": "https://www.figma.com/design/vjlUz3St5l6a5yp7LK0wuX/Portfolio?t=Ns7nHVdNuDs5WPR1-0"
+    },
+    {
       "title": "Poster Design for Event - Leisure Project",
       "imageSrc": "projects/pub.png",
       "description": "Creative poster design for an event aimed at promoting leisure activities and cultural engagement.",
       "skills": ["Figma", "Graphic Design", "Poster Design"],
       "source": "https://www.figma.com/design/UroJ7CFrAusJICIPdtNIaJ/Untitled?node-id=0-1&node-type=canvas&t=zNLTOQ5HFlfO1rPF-0"
     }
+    
   ]
 }
