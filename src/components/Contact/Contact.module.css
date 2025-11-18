@@ -5,7 +5,7 @@
     padding: 100px 10%;
     gap: 30px;
     border-radius: 10px;
-    margin-bottom: -40px;
+    margin-bottom: -70px;
 }
 
 .textContainer {
@@ -16,7 +16,7 @@
 .text h2 {
     font-family: "Playwrite US Modern", cursive;
     font-size: 40px;
-    color: rgb(237, 237, 122);
+    color: rgb(241, 212, 95);
     margin-bottom: 40px;
 }
 
@@ -80,21 +80,23 @@
 .image {
     width: 100%;
     max-width: 65px;
-    margin-right: 90px;
+    margin-right: 10px;
     margin-bottom: -60px;
+        animation: floating 3s ease-in-out infinite;
 
 }
 
 .image1 {
     width: 100%;
     max-width: 80px;
-    margin-left: 70px;
+    margin-left: 180px;
     animation: floating 3s ease-in-out infinite;
 }
 
 .image2 {
     width: 100%;
-    max-width: 300px;
+    max-width: 340px;
+    margin-top: -28px;
 }
 
 @keyframes floating {

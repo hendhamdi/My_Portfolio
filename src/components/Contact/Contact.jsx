@@ -73,7 +73,7 @@ export const Contact = () => {
               className={styles.image1}
             />
             <img
-              src={getImageUrl("contact/me.png")}
+              src={getImageUrl("contact/hend4.png")}
               alt="Contact"
               className={styles.image2}
             />
