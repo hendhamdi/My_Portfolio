@@ -18,12 +18,13 @@
 
 .title1 {
     color: var(--color-text);
-    font-size: 15px;
     font-weight: 150;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     font-family: "Sacramento", cursive;
     text-align: center;
+    font-size: 16px;
+        opacity: 0.7;
 }
 
 .experiencesContainer {

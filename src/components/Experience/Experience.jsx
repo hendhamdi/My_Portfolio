@@ -1,23 +1,98 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Experience.module.css";
-import skills from "../../data/skills.json";
 import { getImageUrl } from "../../utils";
+import certifications from "../../data/certifications.json";
 
 export const Experience = () => {
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  // Limite à 6 certifications
+  const certImages = certifications.slice(0, 6);
+
   return (
     <section className={styles.container} id="experience">
-      <p className={styles.subtitle}>Discover My Technical Expertise</p>
-      <h2 className={styles.title}>HARD-SKILLS</h2>
-      <div className={styles.skillsGrid}>
-        {skills.map((skill, index) => (
-          <div key={index} className={styles.skillCard}>
-            <div className={styles.skillImage}>
-              <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+      <p className={styles.subtitle}>A blend of Knowledge & Skills</p>
+      <h2 className={styles.title}>Skills & Certifications</h2>
+      <div className={styles.line}></div>
+
+      <div className={styles.board}>
+        {/* ------------------ SKILLS ------------------ */}
+        <div className={styles.skillArea}>
+
+          {/* LANGAGES */}
+          <div className={styles.skillCategory}>
+            <h4>Langages</h4>
+            <div className={styles.tags}>
+              <span>Python</span><span>Java</span><span>JavaScript</span>
+              <span>C</span><span>C++</span>
             </div>
-            <p className={styles.skillTitle}>{skill.title}</p>
           </div>
-        ))}
+
+          {/* WEB & MOBILE */}
+          <div className={styles.skillCategory}>
+            <h4>Développement Web & Mobile</h4>
+            <div className={styles.tags}>
+              <span>React.js</span><span>React Native</span>
+              <span>Node.js</span><span>Angular</span>
+              <span>JavaFX</span><span>HTML/CSS</span>
+            </div>
+          </div>
+
+          {/* BASES DE DONNÉES */}
+          <div className={styles.skillCategory}>
+            <h4>Bases de données</h4>
+            <div className={styles.tags}>
+              <span>MySQL</span><span>MongoDB</span>
+              <span>PostgreSQL</span><span>Firebase</span>
+            </div>
+          </div>
+
+          {/* OUTILS */}
+          <div className={styles.skillCategory}>
+            <h4>Outils & Environnements</h4>
+            <div className={styles.tags}>
+              <span>Git</span><span>Docker</span>
+              <span>VS Code</span><span>Android Studio</span>
+              <span>Figma</span><span>Canva</span>
+            </div>
+          </div>
+
+          {/* IA & DONNÉES */}
+          <div className={styles.skillCategory}>
+            <h4>IA & Données</h4>
+            <div className={styles.tags}>
+              <span>Spark NLP</span><span>PySpark</span>
+              <span>Machine Learning</span><span>Deep Learning</span>
+            </div>
+          </div>
+        </div>
+
+        {/* ------------------ CERTIFICATIONS ------------------ */}
+        <div className={styles.certArea}>
+
+          <div className={styles.certImages}>
+            {certImages.map((cert, index) => (
+              <img
+                key={index}
+                src={getImageUrl(cert.image)}
+                alt={cert.title}
+                className={styles.certImg}
+                onClick={() => setSelectedImage(getImageUrl(cert.image))}
+              />
+            ))}
+          </div>
+        </div>
       </div>
+
+      {/* Lightbox */}
+      {selectedImage && (
+        <div
+          className={styles.lightbox}
+          onClick={() => setSelectedImage(null)}
+        >
+          <img src={selectedImage} alt="Certification" />
+        </div>
+      )}
     </section>
   );
 };
