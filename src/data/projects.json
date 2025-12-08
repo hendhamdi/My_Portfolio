@@ -18,6 +18,15 @@
     "source": "https://github.com/hendhamdi/Management-Teachers-Sessions"
     
   },
+  
+  {
+    "title": "SmartDate IoT ",
+    "imageSrc": "projects/degeltnour.png",
+    "description": "Is an intelligent system for the automatic classification based on deep learning and integrated into a simulated IoT architecture.",
+    "skills": ["Dl","Iot", "Dev Web", "MQTT"],
+    
+    "source": "https://github.com/hendhamdi/SmartDate_IoT"
+  },
   {
     "title": "Open Source contribution",
     "imageSrc": "projects/contribution.png",
@@ -26,6 +35,26 @@
    
     "source": "https://github.com/hendhamdi"
     
+  },
+  
+  {
+    "title": "Student Success Analysis and Prediction Dashboard",
+    "imageSrc": "projects/python.png",
+    "description": "This mini-project focuses on analyzing and predicting student success at the Institut Supérieur d’Informatique.",
+    "skills": ["Python", "Streamlit", "Flask","Ml"],
+   
+    "source": "https://github.com/hendhamdi/Student_Success_Analysis_and_Prediction_Dashboard"
+  },
+ 
+  
+  
+  {
+    "title": "Sentiment-Analysis-Spark-NLP",
+    "imageSrc": "projects/spark.png",
+    "description": " This project uses a Spark pipeline (PySpark) to analyze the sentiment of user reviews.",
+    "skills": ["React-Js", "HTML & CSS", "JS"],
+    
+    "source": "https://github.com/hendhamdi/Sentiment-Analysis-Spark-NLP"
   },
   {
     "title": "Deep_learning",
@@ -46,34 +75,7 @@
     "demo": "https://www.example.com"
   }
   
-  ,
   
-  
-  
-  {
-    "title": "Sentiment-Analysis-Spark-NLP",
-    "imageSrc": "projects/spark.png",
-    "description": " This project uses a Spark pipeline (PySpark) to analyze the sentiment of user reviews.",
-    "skills": ["React-Js", "HTML & CSS", "JS"],
-    
-    "source": "https://github.com/hendhamdi/Sentiment-Analysis-Spark-NLP"
-  },
-  {
-    "title": "Mon Labo",
-    "imageSrc": "projects/im.png",
-    "description": "Online website that makes it easy to find an analysis laboratory, contact us for an appointment and access your analysis results remotely.",
-    "skills": ["HTML & CSS", "BOOTSTRAP", "JS"],
-   
-    "source": "https://github.com/hendhamdi/Mon-Labo.github.io.git"
-  },
-  {
-    "title": "Platform TRIK-ESSLAMA",
-    "imageSrc": "projects/asu.png",
-    "description": "The online platform facilitates communication between the adjuster and the policyholder.",
-    "skills": ["HTML & CSS","JS", "BOOTSTRAP","Firebase"],
-    
-    "source": "https://github.com/hendhamdi/pfa.github.io.git"
-  }
   
 ],
 "designProjects": [
