@@ -4,6 +4,7 @@ import { getImageUrl } from "../../utils";
 
 export const Experiences = () => {
   return (
+    
     <section className={styles.global} id="experiences">
       <h6 className={styles.title1}>Explore</h6>
       <h2 className={styles.title}>My Experiences</h2>
@@ -26,11 +27,16 @@ export const Experiences = () => {
             </p>
 
             <div className={styles.techContainer}>
-              <span className={styles.techLabel}>Tech:</span>{" "}
-              <span className={styles.techStack}>
-                React, Redux, PostgreSQL, Redis, Figma
-              </span>
-            </div>
+  <span className={styles.techLabel}>Tech:</span>
+  <div className={styles.techTags}>
+    <span>React</span>
+    <span>Redux</span>
+    <span>PostgreSQL</span>
+    <span>Redis</span>
+    <span>Figma</span>
+  </div>
+</div>
+
           </div>
         </div>
 
@@ -50,10 +56,16 @@ export const Experiences = () => {
               clients and added an admin dashboard.
             </p>
 
-            <div className={styles.techContainer}>
-              <span className={styles.techLabel}>Tech:</span>{" "}
-              <span className={styles.techStack}>HTML, CSS, Firebase</span>
-            </div>
+           <div className={styles.techContainer}>
+  <span className={styles.techLabel}>Tech:</span>
+  <div className={styles.techTags}>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>Firebase</span>
+    
+  </div>
+</div>
+
           </div>
         </div>
 
@@ -72,11 +84,13 @@ export const Experiences = () => {
             </p>
 
             <div className={styles.techContainer}>
-              <span className={styles.techLabel}>Tech:</span>{" "}
-              <span className={styles.techStack}>
-                Internal Accounting Software
-              </span>
-            </div>
+  <span className={styles.techLabel}>Tech:</span>
+  <div className={styles.techTags}>
+    <span>Internal Accounting Software</span>
+   
+  </div>
+</div>
+
           </div>
         </div>
 
@@ -96,12 +110,17 @@ export const Experiences = () => {
               contributed to a mobile app for EV charging stations.
             </p>
 
-            <div className={styles.techContainer}>
-              <span className={styles.techLabel}>Tech:</span>{" "}
-              <span className={styles.techStack}>
-                Angular, TypeScript, React Native, Expo, Figma
-              </span>
-            </div>
+           <div className={styles.techContainer}>
+  <span className={styles.techLabel}>Tech:</span>
+  <div className={styles.techTags}>
+    <span>Angular</span>
+    <span>React Native</span>
+    <span>TypeScript</span>
+    <span>Expo</span>
+    <span>Figma</span>
+  </div>
+</div>
+
           </div>
         </div>
       </div>
