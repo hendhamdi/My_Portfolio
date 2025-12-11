@@ -1,11 +1,11 @@
 @import "../../vars.css";
 
+/* GLOBAL */
 .global {
     padding: 40px 0;
     border-radius: 15px;
     margin: 120px 10% 0;
     position: relative;
-    
 }
 
 .title {
@@ -25,58 +25,53 @@
     font-family: "Sacramento", cursive;
     text-align: center;
     font-size: 16px;
-        opacity: 0.7;
+    opacity: 0.7;
 }
 
+/* CONTAINER – remplacé par GRID = stable partout */
 .experiencesContainer {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+
     padding: 0;
-    /* supprime le padding latéral qui casse l’alignement */
-    flex-wrap: nowrap;
-    /* pas de retour à la ligne */
 }
 
+/* CARD */
 .experienceCard {
-background: rgba(255, 255, 255, 0.05);
-    /* même couleur que board */
+    background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(15px);
-    /* effet glass */
     -webkit-backdrop-filter: blur(15px);
 
     border-radius: 25px;
     padding: 25px;
-    width: calc(25% - 15px);
 
     display: flex;
     flex-direction: column;
     text-align: center;
 
-    box-shadow: 0 0 19px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.085);
 
     transition: all 0.35s ease;
     position: relative;
-        overflow: hidden;
+    overflow: hidden;
 }
 
+/* HOVER */
 .experienceCard:hover {
     transform: translateY(-8px) scale(1.02);
-
     box-shadow:
         0 0 30px rgba(188, 182, 68, 0.5),
         0 0 15px rgba(255, 255, 255, 0.15);
 }
+
 .experienceCard::before {
     content: "";
     position: absolute;
     inset: 0;
     border-radius: 25px;
-    background: linear-gradient(120deg,
-            transparent,
-            rgba(188, 182, 68, 0.08),
-            transparent);
+    background: linear-gradient(120deg, transparent, rgba(188, 182, 68, 0.08), transparent);
     opacity: 0;
     transition: opacity 0.4s ease;
     pointer-events: none;
@@ -85,39 +80,47 @@ background: rgba(255, 255, 255, 0.05);
 .experienceCard:hover::before {
     opacity: 1;
 }
+
+/* IMAGE */
 .expImg {
-    width: 20%;
-    border-radius: 15px;
-    margin-bottom: 20px;
-    align-self: center;
+    width: 22%;
+    border-radius: 12px;
+    margin: 0 auto 20px;
 }
 
+/* CONTENT */
 .experienceContent {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     flex-grow: 1;
     color: var(--color-text);
 }
 
+/* TITLE */
 .experienceTitle {
     font-size: 22px;
     font-weight: 600;
     font-family: "Playwrite US Modern", cursive;
     margin-bottom: 15px;
+
+    line-height: 1.2;
+    /* Stabilise sur Vercel */
 }
 
+/* DESCRIPTION */
 .experienceDescription {
     font-size: 17px;
-    margin-left: 2%;
     font-family: "Sacramento", cursive;
     font-weight: 100;
-    font-style: normal;
     text-align: justify;
     color: #ded8d8;
     margin-bottom: 20px;
+
+    line-height: 1.4;
+    /* Stabilise la taille */
 }
 
+/* TECH */
 .techContainer {
     margin-top: auto;
     text-align: left;
@@ -127,25 +130,8 @@ background: rgba(255, 255, 255, 0.05);
     font-weight: bold;
     font-family: "Playwrite US Modern", cursive;
     text-decoration: underline;
-}
-
-.techStack {
-    font-weight: bold;
-    font-size: 15px;
-    font-family: "Sacramento", cursive;
-}
-/* TAGS TECH */
-.techContainer {
-    margin-top: auto;
-    text-align: left;
-}
-
-.techLabel {
-    font-weight: bold;
-    font-family: "Playwrite US Modern", cursive;
-    text-decoration: underline;
-    display: block;
     margin-bottom: 6px;
+    display: block;
 }
 
 .techTags {
@@ -154,7 +140,7 @@ background: rgba(255, 255, 255, 0.05);
     gap: 6px;
 }
 
-/* STYLE DES TAGS */
+/* TECH TAG STYLE */
 .techTags span {
     padding: 6px 12px;
     border-radius: 20px;
@@ -165,28 +151,26 @@ background: rgba(255, 255, 255, 0.05);
     transition: 0.25s ease-in-out;
 }
 
-/* HOVER ANIMATION */
 .techTags span:hover {
     background: rgba(188, 182, 68, 0.812);
     box-shadow: 0 3px 12px rgba(188, 182, 68, 0.812);
     transform: translateY(-2px) scale(1.03);
 }
 
-@media screen and (max-width: 1200px) {
-    .experienceCard {
-        width: 45%;
-        /* 2 par ligne sur tablette */
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+    .experiencesContainer {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media screen and (max-width: 830px) {
+@media (max-width: 830px) {
     .experiencesContainer {
-        flex-direction: column;
-        align-items: center;
+        grid-template-columns: 1fr;
     }
 
     .experienceCard {
-        width: 80%;
-        margin-bottom: 20px;
+        width: 90%;
+        margin: 0 auto;
     }
 }
