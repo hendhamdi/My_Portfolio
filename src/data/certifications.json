@@ -1,14 +1,14 @@
-[
+[  {
+    "title": "Introduction to DevOps and Site Reliability Engineering",
+    "organization": "The Linux Foundation",
+    "image": "certifications/intro-devops.png"
+  },
   {
     "title": "Machine Learning with Python",
     "organization": "365 Data Science",
     "image": "certifications/Machine_learning_python.png"
   },
-  {
-    "title": "Git & GitHub",
-    "organization": "365 Data Science",
-    "image": "certifications/Intro_to_sql_server.png"
-  },
+  
   {
     "title": "Advanced SQL for Data Engineering",
     "organization": "Coursera",
