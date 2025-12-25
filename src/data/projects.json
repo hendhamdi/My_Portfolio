@@ -1,10 +1,18 @@
-{
+{  
   "devProjects": [
-    {
-    "title": "PastaQuest",
+     {
+    "title": "SmartDate IoT ",
+    "imageSrc": "projects/degeltnour.png",
+    "description": "Real-time classification of Deglet Nour dates using Transfer Learning and an IoT pipeline.",
+    "skills": ["Dl","Iot", "Dev Web", "MQTT", "Python", "transfer-learning"],
+    
+    "source": "https://github.com/hendhamdi/SmartDate_IoT"
+  },
+  {
+    "title": "PastaQuest (DevOps)",
     "imageSrc": "projects/pasta.png",
-    "description": "PastaQuest is a web project aimed at creating a modern, user-friendly website for a pasta-specialized restaurant.",
-    "skills": ["ReactJS", "MongoDB", "CSS","Node.js","Express.js"],
+    "description": "A modern website for a pasta restaurant, featuring menu browsing and online reservation.",
+    "skills": ["React", "MongoDB","Node", "Docker", "Kubernetes", "CI/CD", "Azure"],
    
     "source": "https://github.com/hendhamdi/PastaQuest"
     
@@ -19,14 +27,7 @@
     
   },
   
-  {
-    "title": "SmartDate IoT ",
-    "imageSrc": "projects/degeltnour.png",
-    "description": "Is an intelligent system for the automatic classification based on deep learning and integrated into a simulated IoT architecture.",
-    "skills": ["Dl","Iot", "Dev Web", "MQTT"],
-    
-    "source": "https://github.com/hendhamdi/SmartDate_IoT"
-  },
+ 
   {
     "title": "Open Source contribution",
     "imageSrc": "projects/contribution.png",
