@@ -82,7 +82,7 @@ export const Contact = () => {
       </footer>
 
       <div className={styles.copyright}>
-        <p>&copy;2025 Hend Hamdi. All rights reserved.</p>
+        <p>&copy; 2025 Hend Hamdi. All rights reserved.</p>
       </div>
     </div>
   );
