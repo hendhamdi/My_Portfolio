@@ -5,9 +5,27 @@ import certifications from "../../data/certifications.json";
 
 export const Experience = () => {
   const [selectedImage, setSelectedImage] = useState(null);
+  const [page, setPage] = useState(0);
 
-  // Limite à 6 certifications
-  const certImages = certifications.slice(0, 6);
+  const ITEMS_PER_PAGE = 6;
+
+  const startIndex = page * ITEMS_PER_PAGE;
+  const certImages = certifications.slice(
+    startIndex,
+    startIndex + ITEMS_PER_PAGE
+  );
+
+  const nextPage = () => {
+    if ((page + 1) * ITEMS_PER_PAGE < certifications.length) {
+      setPage(page + 1);
+    }
+  };
+
+  const prevPage = () => {
+    if (page > 0) {
+      setPage(page - 1);
+    }
+  };
 
   return (
     <section className={styles.container} id="experience">
@@ -19,7 +37,6 @@ export const Experience = () => {
         {/* ------------------ SKILLS ------------------ */}
         <div className={styles.skillArea}>
 
-          {/* LANGAGES */}
           <div className={styles.skillCategory}>
             <h4>Langages</h4>
             <div className={styles.tags}>
@@ -28,7 +45,6 @@ export const Experience = () => {
             </div>
           </div>
 
-          {/* WEB & MOBILE */}
           <div className={styles.skillCategory}>
             <h4>Développement Web & Mobile</h4>
             <div className={styles.tags}>
@@ -38,7 +54,6 @@ export const Experience = () => {
             </div>
           </div>
 
-          {/* BASES DE DONNÉES */}
           <div className={styles.skillCategory}>
             <h4>Bases de données</h4>
             <div className={styles.tags}>
@@ -47,7 +62,6 @@ export const Experience = () => {
             </div>
           </div>
 
-          {/* OUTILS */}
           <div className={styles.skillCategory}>
             <h4>Outils & Environnements</h4>
             <div className={styles.tags}>
@@ -57,7 +71,6 @@ export const Experience = () => {
             </div>
           </div>
 
-          {/* IA & DONNÉES */}
           <div className={styles.skillCategory}>
             <h4>IA & Données</h4>
             <div className={styles.tags}>
@@ -69,17 +82,41 @@ export const Experience = () => {
 
         {/* ------------------ CERTIFICATIONS ------------------ */}
         <div className={styles.certArea}>
+          <div className={styles.certWrapper}>
 
-          <div className={styles.certImages}>
-            {certImages.map((cert, index) => (
-              <img
-                key={index}
-                src={getImageUrl(cert.image)}
-                alt={cert.title}
-                className={styles.certImg}
-                onClick={() => setSelectedImage(getImageUrl(cert.image))}
-              />
-            ))}
+            {/* Flèche gauche */}
+            <button
+              className={styles.arrow}
+              onClick={prevPage}
+              disabled={page === 0}
+            >
+              ‹
+            </button>
+
+            {/* Images */}
+            <div className={styles.certImages}>
+              {certImages.map((cert, index) => (
+                <img
+                  key={index}
+                  src={getImageUrl(cert.image)}
+                  alt={cert.title}
+                  className={styles.certImg}
+                  onClick={() =>
+                    setSelectedImage(getImageUrl(cert.image))
+                  }
+                />
+              ))}
+            </div>
+
+            {/* Flèche droite */}
+            <button
+              className={styles.arrow}
+              onClick={nextPage}
+              disabled={(page + 1) * ITEMS_PER_PAGE >= certifications.length}
+            >
+              ›
+            </button>
+
           </div>
         </div>
       </div>

@@ -24,9 +24,25 @@
     "organization": "365 Data Science",
     "image": "certifications/Advanced_SQL.png"
   },
+   {
+    "title": "Introduction to Kubernetes",
+    "organization": "365 Data Science",
+    "image": "certifications/Kubernetes.png"
+  },
   {
     "title": "Advanced SQL for Data Engineering",
     "organization": "Coursera",
     "image": "certifications/Hierarchical_recursive_queries_sql_server.png"
+  },
+  {
+    "title": "Authentication and Authorization for Web/API",
+    "organization": "Coursera",
+    "image": "certifications/Authentication.png"
+  },
+ 
+  {
+    "title": "Introduction to SQL Server",
+    "organization": "Coursera",
+    "image": "certifications/SQL-Server.png"
   }
 ]
