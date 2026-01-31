@@ -11,12 +11,12 @@
   
   {
     "title": "Advanced SQL for Data Engineering",
-    "organization": "Coursera",
+    "organization": "DataCamp",
     "image": "certifications/Git_github.png"
   },
   {
     "title": "Advanced SQL for Data Engineering",
-    "organization": "Coursera",
+    "organization": "DataCamp",
     "image": "certifications/Intermediate_sql_server.png"
   },
   {
@@ -31,18 +31,23 @@
   },
   {
     "title": "Advanced SQL for Data Engineering",
-    "organization": "Coursera",
+    "organization": "DataCamp",
     "image": "certifications/Hierarchical_recursive_queries_sql_server.png"
   },
   {
     "title": "Authentication and Authorization for Web/API",
-    "organization": "Coursera",
+    "organization": "The Linux Foundation",
     "image": "certifications/Authentication.png"
   },
  
   {
     "title": "Introduction to SQL Server",
-    "organization": "Coursera",
+    "organization": "DataCamp",
     "image": "certifications/SQL-Server.png"
+  },
+  {
+    "title": "Open_Source_Licensing_Basics_for_Software_Developers",
+    "organization": "The Linux Foundation",
+    "image": "certifications/Open_Source_Licensing_Basics_for_Software_Developers.png"
   }
 ]
