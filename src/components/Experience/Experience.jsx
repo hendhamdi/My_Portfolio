@@ -65,7 +65,7 @@ export const Experience = () => {
           <div className={styles.skillCategory}>
             <h4>Outils & Environnements</h4>
             <div className={styles.tags}>
-              <span>Git</span><span>Docker</span><span>kubernetes</span><span>CI/CD</span>
+              <span>Git</span><span>Docker</span><span>kubernetes</span><span>CI/CD</span><span>Grafana</span>
               <span>Android Studio</span>
               <span>Figma</span><span>Canva</span>
             </div>
