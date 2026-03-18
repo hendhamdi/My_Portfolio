@@ -20,7 +20,7 @@ export const Hero = () => {
         </p>
        
      
-       <a href="/Cv_Hend_Hamdi.pdf" className={styles.contactBtn} download="Hend_Hamdi_CV.pdf">
+       <a href="/CV_Hend_Hamdi.pdf" className={styles.contactBtn} download="Hend_Hamdi_CV.pdf">
     Download My CV
 </a>
        

@@ -48,7 +48,7 @@ export const Experience = () => {
           <div className={styles.skillCategory}>
             <h4>Développement Web & Mobile</h4>
             <div className={styles.tags}>
-              <span>React.js</span><span>React Native</span>
+              <span>React.js</span><span>React Native</span><span>FastAPI</span>
               <span>Node.js</span><span>Angular</span>
               <span>JavaFX</span><span>HTML/CSS</span>
             </div>
@@ -65,8 +65,8 @@ export const Experience = () => {
           <div className={styles.skillCategory}>
             <h4>Outils & Environnements</h4>
             <div className={styles.tags}>
-              <span>Git</span><span>Docker</span>
-              <span>VS Code</span><span>Android Studio</span>
+              <span>Git</span><span>Docker</span><span>kubernetes</span><span>CI/CD</span>
+              <span>Android Studio</span>
               <span>Figma</span><span>Canva</span>
             </div>
           </div>
@@ -75,7 +75,8 @@ export const Experience = () => {
             <h4>IA & Données</h4>
             <div className={styles.tags}>
               <span>Spark NLP</span><span>PySpark</span>
-              <span>Machine Learning</span><span>Deep Learning</span>
+              <span>Machine Learning</span><span>Deep Learning</span><span> Transfer Learning
+</span>
             </div>
           </div>
         </div>

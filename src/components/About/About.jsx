@@ -37,8 +37,22 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Full-stack Developer & UI/UX Designer</h3>
               <p>
-                I specialize in interface design and frontend development, creating responsive, user-friendly
-                 websites and crafting visually appealing interfaces to enhance the user experience.
+               I am passionate about interface design and frontend development,
+                with a strong focus on building responsive and user-friendly web applications.
+              </p>
+            </div>
+          </li>
+          <li className={styles.aboutItem}>
+            <img
+              src={getImageUrl("about/ia.png")}
+              alt="Code icon"
+              className={styles.icon2}
+            />
+            <div className={styles.aboutItemText}>
+              <h3>AI & Machine Learning Enthusiast</h3>
+              <p>
+                I am also exploring Artificial Intelligence and Machine Learning, 
+                applying these technologies to build intelligent and data-driven solutions.
               </p>
             </div>
           </li>
