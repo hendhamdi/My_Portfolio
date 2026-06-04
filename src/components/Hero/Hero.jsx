@@ -11,6 +11,7 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
+        
        <h1 className={`${styles.title} ${styles.typing}`}>Hi, I'm Hend!</h1>
 
 
