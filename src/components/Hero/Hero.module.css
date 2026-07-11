@@ -126,7 +126,7 @@
 }
 
 .heroImg {
-    margin-top: 1px;
+    margin-top: -30px;
     width: 34%;
     z-index: 1;
     animation-name: floating;
