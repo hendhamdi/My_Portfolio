@@ -2,124 +2,249 @@
 
 .container {
     position: relative;
-    background: rgba(255, 255, 255, 0.1);   
-    border-radius: 15px;
-    padding: 40px;
-    margin-top: 129px;
+    max-width: 1140px;
+    margin: 180px auto 0;
+    
+    padding: 0 5%;
     z-index: 1;
-    margin-left: 12%;
-    margin-right: 10%;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 340px 1fr;
+    gap: 5px;
+    align-items: start;
+}
+
+/* LEFT */
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    position: sticky;
+    top: 100px;
+}
+
+.title1 {
+    color: rgb(251, 234, 104);
+    font-weight: 600;
+   
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: "Playwrite US Modern", cursive;
 }
 
 .title {
     color: var(--color-text);
-    font-size: 35px;
-    font-weight: 750;
-    letter-spacing: 1.75px;
-    text-transform: uppercase;
+    font-size: 38px;
     font-family: "Playwrite US Modern", cursive;
-    margin-left: 4%;
-}
-.title1 {
-    color: var(--color-text);
-    font-weight: 150;
-    font-size: 16px;
-        opacity: 0.7;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    font-family: 'Sacramento', cursive;  
-      margin-left: 4%;
 }
 
-.content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.accent {
+    color: rgb(251, 234, 104);
+}
 
+.divider {
+    width: 48px;
+    height: 3px;
+    background: rgb(251, 234, 104);
+    border-radius: 4px;
 }
 
 .aboutImage {
-    margin-top: 5%;
-    width: 23%;
-    margin-left: 4%;
+    width: 80%;
+    border-radius: 16px;
 }
 
-.aboutItems {
-    color: var(--color-text);
+/* RIGHT */
+
+.right {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 15px;
+    margin-top: 0px;
 }
 
-.aboutItem {
+/* Cards */
+
+.card {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    border-radius:10px;
-    list-style: none;
-    padding: 6px;
-    background-image: linear-gradient(0deg,
-            rgba(251, 234, 104, 0.119) 10%,
-            rgba(198, 199, 201, 0) 100%);
-    background-size: 0 100%;
-    background-repeat: no-repeat;
-    transition: 0.4s;
-    margin-left: 15%;
+    /* <-- centre verticalement */
+    gap: 20px;
+
+    width: 750px;
+    min-height: 120px;
+    /* hauteur identique pour toutes les cards */
+
+    padding: 20px 24px;
+
+    border-radius: 18px;
+    background: rgba(255, 255, 255, .03);
+    border: 1px solid rgba(255, 255, 255, .08);
+
+    opacity: 0;
+    transform: translateY(16px);
+    animation: reveal .6s ease forwards;
+    transition: .3s;
 }
 
-.aboutItem:hover {
-    background-size: 100% 100%;
+.card:hover {
+    background: rgba(255, 255, 255, .05);
+    border-color: rgba(251, 234, 104, .35);
+    transform: translateY(-3px);
 }
 
-.aboutItem h3 {
-    font-size: 24px;
-    font-weight: 100;
-    margin-left: 2%;
+.iconWrap {
+
+    width: 52px;
+    height: 52px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 14px;
+
+    background: rgba(251, 234, 104, .10);
+
+    border: 1px solid rgba(251, 234, 104, .25);
+}
+
+.icon {
+
+    width: 24px;
+    height: 24px;
+
+    object-fit: contain;
+
+    filter: brightness(0) saturate(100%) invert(88%) sepia(46%) saturate(682%) hue-rotate(1deg) brightness(103%) contrast(101%);
+}
+
+.cardText h3 {
+
+    margin: 0 0 5px;
+
+    font-size: 21px;
+
+    font-weight: 500;
+
+    color: var(--color-text);
+
     font-family: "Playwrite US Modern", cursive;
 }
 
-.aboutItem p {
-    font-size: 18px;
-    margin-left: 2%;
-    font-family: 'Sacramento', cursive;
-    font-optical-sizing: auto;
-        font-weight: 100;
-        font-style: normal;
-        text-align: justify;
-        max-width: 90%;
-        color: #ded8d8;
+.cardText p {
+
+    margin: 0;
+
+    line-height: 1.7;
+
+    font-size: 14px;
+
+    color: rgba(222, 216, 216, .85);
+
+    font-family: "Playwrite US Modern", cursive;
+    
 }
 
-@media screen and (max-width: 830px) {
+/* Stats */
+
+.stats {
+
+    margin-top: 10px;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    border-radius: 18px;
+
+    background: rgba(255, 255, 255, .03);
+
+    border: 1px solid rgba(255, 255, 255, .08);
+
+    padding: 10px 0;
+}
+
+.stat {
+
+    text-align: center;
+
+    border-right: 1px solid rgba(255, 255, 255, .08);
+}
+
+.stat:last-child {
+
+    border-right: none;
+}
+
+.statK {
+
+    color: rgb(251, 234, 104);
+
+    font-size: 20px;
+
+    font-weight: 700;
+
+    font-family: "Playwrite US Modern", cursive;
+    
+}
+
+.statV {
+
+    margin-top: 5px;
+
+    color: rgba(222, 216, 216, .7);
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+
+    font-size: 10px;
+
+    font-family: "Playwrite US Modern", cursive;
+    
+}
+
+/* Animation */
+
+@keyframes reveal {
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+    }
+}
+
+/* Responsive */
+
+@media screen and (max-width:830px) {
+
     .container {
-        background-color: transparent;
-        padding-left: 0;
-        padding-right: 0;
+        margin-top: 70px;
     }
 
     .content {
-        flex-direction: column;
+        grid-template-columns: 1fr;
+    }
+
+    .left {
+        position: static;
+    }
+
+    .right {
+        margin-top: 20px;
     }
 
     .aboutImage {
-        display: none;
+        width: 65%;
+        margin: auto;
     }
-
-    .aboutItems {
-        margin-top: 29px;
-    }
-
-    .aboutItem {
-        padding-left: 0;
-        padding-right: 0;
-    }
-         }
- .aboutItems .aboutItem .icon1 {
- margin-top: -15%;
-margin-right: 8px;
-width: 35px; }
-.aboutItems .aboutItem .icon2 {
-    margin-top: -10%;
-    margin-right: 8px;
-    width: 28px;
 }
