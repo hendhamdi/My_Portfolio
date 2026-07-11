@@ -1,128 +1,130 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import styles from "./Experiences.module.css";
 import { getImageUrl } from "../../utils";
 
+const experiences = [
+  {
+    image: "experiences/web-app.png",
+    title: "Advanced Internship",
+    company: "STAR",
+    period: "2023",
+    description:
+      "Participated in the design and development of client, expert, and administrator interfaces for a communication platform connecting experts with clients.",
+    tech: ["HTML", "CSS", "JavaScript", "Firebase"],
+  },
+  {
+    image: "experiences/mobile-app.png",
+    title: "Final-Year Internship — Bachelor's",
+    company: "Ooredoo Head Office",
+    period: "2024",
+    description:
+      "Co-designed and developed, in pairs, a mobile application for managing meeting room reservations, including an administrative dashboard.",
+    tech: ["React", "Redux", "API REST", "PostgreSQL", "Redis", "Docker", "Figma"],
+  },
+  {
+    image: "experiences/accounting.png",
+    title: "Accounting Internship",
+    company: "Accounting Office",
+    period: "2025",
+    description:
+      "Managed invoices, bank entries, and cash receipts to support accurate financial reporting.",
+    tech: ["Internal Accounting Software"],
+  },
+  {
+    image: "experiences/web-app.png",
+    title: "Summer Internship — Front-End Developer",
+    company: "Innov Alliance Tech",
+    period: "2025",
+    description:
+      "Designed and developed the UI of an interactive analytics dashboard for real-time monitoring of R&D projects. Contributed to a mobile app for locating EV charging stations.",
+    tech: ["Angular", "TypeScript", "React Native", "Expo", "Figma"],
+  },
+  {
+    image: "experiences/mobile-app.png",
+    title: "Final-Year Internship — Master's",
+    company: "Ooredoo Head Office",
+    period: "2026",
+    description:
+      "Designed and developed an intelligent employee turnover prediction platform, integrating automated pipelines for data collection, model training, and ML model deployment.",
+    tech: ["Python", "Scikit-learn", "NLP", "SHAP", "FastAPI", "React.js", "PostgreSQL", "Docker", "CI/CD"],
+  },
+];
+
+const TimelineItem = ({ exp, index }) => {
+  const ref = useRef(null);
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const node = ref.current;
+    if (!node) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true);
+          observer.unobserve(node);
+        }
+      },
+      { threshold: 0.25 }
+    );
+
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, []);
+
+  const side = index % 2 === 0 ? styles.left : styles.right;
+
+  return (
+    <div
+      ref={ref}
+      className={`${styles.item} ${side} ${visible ? styles.visible : ""}`}
+    >
+      <div className={styles.node} />
+
+      <div className={styles.card}>
+        <div className={styles.cardHeader}>
+          <div className={styles.iconBadge}>
+            <img
+              src={getImageUrl(exp.image)}
+              alt={exp.title}
+              className={styles.expImg}
+            />
+          </div>
+
+          <div className={styles.headerText}>
+            <h3 className={styles.title3}>{exp.title}</h3>
+            {exp.company && <p className={styles.company}>{exp.company}</p>}
+          </div>
+
+          <span className={styles.period}>{exp.period}</span>
+        </div>
+
+        <p className={styles.description}>{exp.description}</p>
+
+        <div className={styles.techContainer}>
+          <span className={styles.techLabel}>Tech</span>
+          <div className={styles.techTags}>
+            {exp.tech.map((t) => (
+              <span key={t}>{t}</span>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export const Experiences = () => {
   return (
-    
     <section className={styles.global} id="experiences">
       <h6 className={styles.title1}>Explore</h6>
       <h2 className={styles.title}>My Experiences</h2>
 
-      <div className={styles.experiencesContainer}>
-        <div className={styles.experienceCard}>
-          <img
-            src={getImageUrl("experiences/mobile-app.png")}
-            alt="Ooredoo Project"
-            className={styles.expImg}
-          />
-          <div className={styles.experienceContent}>
-            <h3 className={styles.experienceTitle}>
-              End-of-Studies Internship – Ooredoo
-            </h3>
-
-            <p className={styles.experienceDescription}>
-              Built a mobile app to book meeting rooms and designed an admin
-              dashboard for easy management.
-            </p>
-
-            <div className={styles.techContainer}>
-  <span className={styles.techLabel}>Tech:</span>
-  <div className={styles.techTags}>
-    <span>React</span>
-    <span>Redux</span>
-    <span>PostgreSQL</span>
-    <span>Redis</span>
-    <span>Figma</span>
-  </div>
-</div>
-
-          </div>
-        </div>
-
-        <div className={styles.experienceCard}>
-          <img
-            src={getImageUrl("experiences/web-app.png")}
-            alt="STAR Project"
-            className={styles.expImg}
-          />
-          <div className={styles.experienceContent}>
-            <h3 className={styles.experienceTitle}>
-              Advanced Internship – STAR
-            </h3>
-
-            <p className={styles.experienceDescription}>
-              Developed the frontend of a web platform to connect experts with
-              clients and added an admin dashboard.
-            </p>
-
-           <div className={styles.techContainer}>
-  <span className={styles.techLabel}>Tech:</span>
-  <div className={styles.techTags}>
-    <span>HTML</span>
-    <span>CSS</span>
-    <span>Firebase</span>
-    
-  </div>
-</div>
-
-          </div>
-        </div>
-
-        <div className={styles.experienceCard}>
-          <img
-            src={getImageUrl("experiences/accounting.png")}
-            alt="Accounting Internship"
-            className={styles.expImg}
-          />
-          <div className={styles.experienceContent}>
-            <h3 className={styles.experienceTitle}>Accounting Internship</h3>
-
-            <p className={styles.experienceDescription}>
-              Managed invoices, bank entries, and cash receipts to support
-              accurate financial reporting.
-            </p>
-
-            <div className={styles.techContainer}>
-  <span className={styles.techLabel}>Tech:</span>
-  <div className={styles.techTags}>
-    <span>Internal Accounting Software</span>
-   
-  </div>
-</div>
-
-          </div>
-        </div>
-
-        <div className={styles.experienceCard}>
-          <img
-            src={getImageUrl("experiences/web-app.png")}
-            alt="IAST Innov Alliance Tech"
-            className={styles.expImg}
-          />
-          <div className={styles.experienceContent}>
-            <h3 className={styles.experienceTitle}>
-              Summer Internship –Innov Alliance Tech
-            </h3>
-
-            <p className={styles.experienceDescription}>
-              Designed an interactive dashboard for R&amp;D projects and
-              contributed to a mobile app for EV charging stations.
-            </p>
-
-           <div className={styles.techContainer}>
-  <span className={styles.techLabel}>Tech:</span>
-  <div className={styles.techTags}>
-    <span>Angular</span>
-    <span>React Native</span>
-    <span>TypeScript</span>
-    <span>Expo</span>
-    <span>Figma</span>
-  </div>
-</div>
-
-          </div>
-        </div>
+      <div className={styles.timeline}>
+        <div className={styles.line} />
+        {experiences.map((exp, i) => (
+          <TimelineItem key={exp.title + exp.period} exp={exp} index={i} />
+        ))}
       </div>
     </section>
   );
