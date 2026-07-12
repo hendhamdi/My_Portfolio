@@ -1,149 +1,184 @@
+@import "../../vars.css";
+
 .container {
   margin: 120px 8%;
-  text-align: center;
   color: var(--color-text);
 }
 
 .subtitle {
-      font-family: "Sacramento", cursive;
-  font-size: 16px;
-  opacity: 0.7;
-  margin-bottom: 5px;
+  color: rgb(251, 234, 104);
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: "Playwrite US Modern", cursive;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
 }
 
 .title {
-  font-size: 40px;
-    font-family: "Sacramento", cursive;
-      margin-bottom: 10px;
+  font-size: 38px;
+    font-weight: 700;
+    font-family: "Playwrite US Modern", cursive;
+    color: rgb(248, 249, 252);
+    text-align: center;
+    margin: 0 0 22px;
 }
 
 .line {
-  width: 120px;
+  width: 60px;
   height: 3px;
-  margin: 0 auto 30px;
+  border-radius: 2px;
+  background: rgb(251, 234, 104);
+  margin: 0 auto 50px;
 }
 
-.board {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 30px;
-  border-radius: 25px;
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(15px);
-  box-shadow: 0 0 25px rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.085);
-}
-.certWrapper {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
-.arrow {
-  background: transparent;
-  /* ❌ supprime le cercle */
-  border: none;
-  /* ❌ supprime la bordure */
-  color: white;
-
-  font-size: 38px;
-  line-height: 1;
-
-  padding: 0;
-  /* pas d’espace inutile */
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-
-.arrow:hover:not(:disabled) {
-  color: rgba(188, 182, 68, 0.9);
-  transform: scale(1.15);
-}
-.arrow:disabled {
-  opacity: 0.3;
-  cursor: not-allowed;
-}
-/* SKILLS */
+/* ===== SKILLS — clean rows, no boxed cards ===== */
 .skillArea {
-  width: 55%;
-  text-align: left;
+  max-width: 900px;
+  margin: 0 auto 70px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 
-.skillCategory h4 {
-  font-size: 16px;
-  margin-bottom: 4px;
+.skillRow {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.skillRow:first-child {
+  padding-top: 0;
+}
+
+.skillLabel {
+  width: 170px;
+  flex-shrink: 0;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: rgb(251, 234, 104);
+  font-family: "Playwrite US Modern", cursive;
 }
 
 .tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 8px;
+  flex: 1;
 }
 
 .tags span {
-  padding: 6px 12px;
+  padding: 6px 14px;
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.07);
+  background: transparent;
   font-size: 13px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  transition: 0.25s ease-in-out;
+  font-weight: 500;
+  font-family: "Playwrite US Modern", cursive;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: rgba(222, 216, 216, 0.9);
+  transition: 0.25s ease;
 }
 
 .tags span:hover {
-  background: rgba(188, 182, 68, 0.812);
-  box-shadow: 0 3px 12px rgba(188, 182, 68, 0.812);
-  transform: translateY(-2px) scale(1.03);
+  background: rgb(251, 234, 104);
+  color: rgb(22, 22, 124);
+  border-color: rgb(251, 234, 104);
+  transform: translateY(-2px);
 }
 
-/* CERTIFICATIONS */
-/* CERTIFICATIONS */
-.certArea {
-  width: 45%;
-  text-align: left;
-  /* Alignement titre à gauche */
+/* ===== CERTIFICATIONS — horizontal scroll carousel ===== */
+.certSection {
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
-.sectionTitleLeft {
-  text-align: left;
+.certTopRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-bottom: 20px;
-  opacity: 0.9;
 }
 
-.certImages {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  /* 3 images par ligne */
-  gap: 20px;
-  justify-items: center;
+.certHeading {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgb(251, 234, 104);
+  font-family: "Playwrite US Modern", cursive;
+  margin: 0;
+}
+
+.certNav {
+  display: flex;
+  gap: 8px;
+}
+
+.arrow {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--color-text);
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  font-size: 20px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.arrow:hover {
+  background: rgba(251, 234, 104, 0.15);
+  border-color: rgba(251, 234, 104, 0.4);
+  color: rgb(251, 234, 104);
+}
+
+.certTrack {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 10px;
+  scrollbar-width: none;
+}
+
+.certTrack::-webkit-scrollbar {
+  display: none;
 }
 
 .certImg {
-  width: 150px;
+  flex: 0 0 auto;
+  width: 220px;
   height: 150px;
-  border-radius: 12px;
+  border-radius: 14px;
   object-fit: cover;
   cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  scroll-snap-align: start;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
 .certImg:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 20px rgba(188, 182, 68, 0.5);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 26px rgba(251, 234, 104, 0.25);
+  border-color: rgba(251, 234, 104, 0.4);
 }
 
-/* Lightbox */
+/* ===== LIGHTBOX ===== */
 .lightbox {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.85);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -154,22 +189,23 @@
   max-width: 80%;
   max-height: 80%;
   border-radius: 12px;
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 30px rgba(251, 234, 104, 0.2);
 }
 
-/* RESPONSIVE */
-@media (max-width: 900px) {
-  .board {
+/* ===== RESPONSIVE ===== */
+@media (max-width: 830px) {
+  .skillRow {
     flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
   }
 
-  .skillArea,
-  .certArea {
-    width: 100%;
+  .skillLabel {
+    width: auto;
   }
 
-  .certImages {
-    grid-template-columns: repeat(2, 1fr);
-    /* 2 images sur mobile */
+  .certImg {
+    width: 170px;
+    height: 120px;
   }
 }

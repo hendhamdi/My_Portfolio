@@ -6,7 +6,7 @@ const experiences = [
   {
     image: "experiences/web-app.png",
     title: "Advanced Internship",
-    company: "STAR",
+    company: "STAR Head Office",
     period: "2023",
     description:
       "Participated in the design and development of client, expert, and administrator interfaces for a communication platform connecting experts with clients.",
@@ -36,7 +36,7 @@ const experiences = [
     company: "Innov Alliance Tech",
     period: "2025",
     description:
-      "Designed and developed the UI of an interactive analytics dashboard for real-time monitoring of R&D projects. Contributed to a mobile app for locating EV charging stations.",
+      "Designed and developed the UI of an interactive analytics dashboard for real-time monitoring of R&D projects.    Contributed to a mobile app for locating EV charging stations.",
     tech: ["Angular", "TypeScript", "React Native", "Expo", "Figma"],
   },
   {
