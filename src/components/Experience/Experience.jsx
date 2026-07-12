@@ -35,6 +35,7 @@ export const Experience = () => {
       <div className={styles.line}></div>
 
       {/* ------------------ SKILLS ------------------ */}
+      
       <div className={styles.skillArea}>
         {skillCategories.map((cat) => (
           <div key={cat.title} className={styles.skillRow}>
