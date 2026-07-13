@@ -1,6 +1,22 @@
 {  
   "devProjects": [
      {
+    "title": "PFE Turnover Project - Ooredoo Tunisia ",
+    "imageSrc": "projects/Banner_Enquête_Prédiction_Turnover.png",
+    "description": "An intelligent platform for predicting employee turnover based on machine learning and NLP.",
+    "skills": ["Ml","React.Js", "Dev Web", "NLP", "Python", "FastAPI"]
+    
+
+  },
+  {
+    "title": "Dashboard - Head of Development & Research",
+    "imageSrc": "projects/R&D_Dashboard.png",
+    "description": "This project is a user interface developed with Angular to provide a centralized, at-a-glance view of R&D activity.",
+    "skills": ["Dl","Iot", "Dev Web", "MQTT", "Python", "transfer-learning"]
+    
+
+  },
+  {
     "title": "SmartDate IoT ",
     "imageSrc": "projects/degeltnour.png",
     "description": "Real-time classification of Deglet Nour dates using Transfer Learning and an IoT pipeline.",
@@ -58,6 +74,15 @@
    
     "source": "https://github.com/hendhamdi"
     
+  },
+  {
+    "title": "Devops_Guide_For_Students",
+    "imageSrc": "projects/devops.png",
+    "description": "A beginner-friendly DevOps guide designed to help students understand DevOps concepts step by step, without application code.",
+    "skills": ["DevOps", "Docker", "GitHub","Kubernetes", "CI/CD", "Monotoring"],
+    
+    "source": "https://github.com/hendhamdi/Devops_Guide_For_Students",
+    "demo": "https://www.example.com"
   },
   {
     "title": "Deep_learning",
