@@ -18,6 +18,14 @@
     
   },
   {
+    "title": "Student Success Analysis and Prediction Dashboard",
+    "imageSrc": "projects/python.png",
+    "description": "This mini-project focuses on analyzing and predicting student success at the Institut Supérieur d’Informatique.",
+    "skills": ["Python", "Streamlit", "Flask","Ml"],
+   
+    "source": "https://github.com/hendhamdi/Student_Success_Analysis_and_Prediction_Dashboard"
+  },
+  {
     "title": "Management-Teachers-Sessions",
     "imageSrc": "projects/ensigant.png",
     "description": "A JavaFX-based application for managing teachers and class schedules in a school.",
@@ -28,24 +36,9 @@
   },
   
  
-  {
-    "title": "Open Source contribution",
-    "imageSrc": "projects/contribution.png",
-    "description": "Participate in an open-source project by fixing bugs, optimizing performance and adding new features to improve the user experience.",
-    "skills": ["GitHub", "Git","Markdown"],
-   
-    "source": "https://github.com/hendhamdi"
-    
-  },
   
-  {
-    "title": "Student Success Analysis and Prediction Dashboard",
-    "imageSrc": "projects/python.png",
-    "description": "This mini-project focuses on analyzing and predicting student success at the Institut Supérieur d’Informatique.",
-    "skills": ["Python", "Streamlit", "Flask","Ml"],
-   
-    "source": "https://github.com/hendhamdi/Student_Success_Analysis_and_Prediction_Dashboard"
-  },
+  
+  
  
   
   
@@ -56,6 +49,15 @@
     "skills": ["React-Js", "HTML & CSS", "JS"],
     
     "source": "https://github.com/hendhamdi/Sentiment-Analysis-Spark-NLP"
+  },
+  {
+    "title": "Open Source contribution",
+    "imageSrc": "projects/contribution.png",
+    "description": "Participate in an open-source project by fixing bugs, optimizing performance and adding new features to improve the user experience.",
+    "skills": ["GitHub", "Git","Markdown"],
+   
+    "source": "https://github.com/hendhamdi"
+    
   },
   {
     "title": "Deep_learning",
@@ -101,27 +103,15 @@
       "skills": ["Figma", "Dashboard Design", "UI/UX Design"],
       "source": "https://www.figma.com/design/14DtDDux0Q5tbC5vtcRubg/R-D-Dashboard?t=joQ87NPmAZ9Rp3d8-0"
     },
-     {
-      "title": "E-commerce Website for Clothing - Boutiket.tn",
-      "imageSrc": "projects/boutiket.png",
-      "description": "Design for an e-commerce website specializing in clothing. My first design.",
-      "skills": ["Figma", "E-commerce Design", "UI/UX Design"],
-      "source": "https://www.figma.com/design/pPWwaXZNnhW1gupkmL8TzR/boutiket.tn?node-id=0-1&node-type=canvas&t=mFdgGml8QI1agTS3-0"
-    },
+     
     {
       "title": "My Portfolio Website",
       "imageSrc": "projects/portfolio.png",
       "description": "Portfolio website showcasing projects, skills, and experience with a modern, responsive design.",
       "skills": ["Figma", "Web Design", "UI/UX Design"],
       "source": "https://www.figma.com/design/vjlUz3St5l6a5yp7LK0wuX/Portfolio?t=Ns7nHVdNuDs5WPR1-0"
-    },
-    {
-      "title": "Poster Design for Event - Leisure Project",
-      "imageSrc": "projects/pub.png",
-      "description": "Creative poster design for an event aimed at promoting leisure activities and cultural engagement.",
-      "skills": ["Figma", "Graphic Design", "Poster Design"],
-      "source": "https://www.figma.com/design/UroJ7CFrAusJICIPdtNIaJ/Untitled?node-id=0-1&node-type=canvas&t=zNLTOQ5HFlfO1rPF-0"
     }
+    
     
   ]
 }

@@ -6,7 +6,9 @@ import { ProjectCard } from "./ProjectCard";
 export const Projects = () => {
   return (
     <section className={styles.container} id="projects">
+      <h6 className={styles.eyebrow}>Explore</h6>
       <h2 className={styles.title}>My Development & Design Projects</h2>
+      <div className={styles.line} />
 
       <h3 className={styles.subTitle}>Development Projects</h3>
       <div className={styles.projects}>

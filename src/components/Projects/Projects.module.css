@@ -8,49 +8,53 @@
     margin-bottom: 7%;
 }
 
-.title {
-    font-size: 35px;
-    font-weight: 700;
-    letter-spacing: 1.75px;
+.eyebrow {
+    color: rgb(251, 234, 104);
+    font-weight: 600;
+    letter-spacing: 3px;
     text-transform: uppercase;
+    font-family: "Playwrite US Modern", cursive;
+    text-align: center;
+    font-size: 13px;
+    margin: 0 0 6px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
     text-align: center;
     font-family: "Playwrite US Modern", cursive;
-    margin-bottom: -50px;
+    margin: 0;
     color: var(--color-text);
 }
 
+.line {
+    width: 60px;
+    height: 3px;
+    border-radius: 2px;
+    background: rgb(251, 234, 104);
+    margin: 18px auto 0;
+}
+
 .subTitle {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     text-transform: capitalize;
-    margin-top: 80px;
+    margin-top: 70px;
     text-align: center;
     font-family: "Playwrite US Modern", cursive;
-    color: var(--color-text);
-    margin-bottom: 20px;
+    color: rgb(251, 234, 104);
+    margin-bottom: 24px;
 }
 
 .projects {
     margin-top: 20px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
-    gap: 20px;
+    gap: 22px;
     flex-wrap: wrap;
     padding: 15px;
-   
-}
-
-.projects::-webkit-scrollbar {
-    height: 10px;
-}
-
-.projects::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-}
-
-.projects::-webkit-scrollbar-track {
-    background-color: transparent;
 }
