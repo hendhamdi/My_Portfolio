@@ -84,6 +84,15 @@
     "source": "https://github.com/hendhamdi/Devops_Guide_For_Students",
     "demo": "https://www.example.com"
   },
+
+  
+  {
+    "title": "PFE Meeting Room Booking App - Ooredoo Tunisia ",
+    "imageSrc": "projects/bookingroom.png",
+    "description": "Meeting Room Manager is a mobile application designed to simplify the process of booking meeting rooms within a company or organization.",
+    "skills": ["React", "JS", "Docker","Mobile App"]
+  },
+
   {
     "title": "Deep_learning",
     "imageSrc": "projects/R.jpg",
